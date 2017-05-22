@@ -82,6 +82,8 @@ ROS needs IP addresses to communicate between the TurtleBot and the remote PC.
 
 Rectangled text is the IP address of the ``Remote PC``.
 
+.. image:: _static/software/network_configuration2.png
+
 [``Remote PC``] Do the following.
 
 .. code-block:: bash
@@ -90,15 +92,13 @@ Rectangled text is the IP address of the ``Remote PC``.
 
 Change the `localhost` into the IP address shown as follows.
 
-.. image:: _static/software/network_configuration2.png
+.. image:: _static/software/network_configuration3.png
 
 [``Remote PC``] Then, source the bashrc
 
 .. code-block:: bash
 
   source ~/.bashrc
-
-.. image:: _static/software/network_configuration3.png
 
 
 .. _1.2 Setup your sources.list: http://wiki.ros.org/kinetic/Installation/Ubuntu#Installation.2BAC8-Ubuntu.2BAC8-Sources.Setup_your_sources.list

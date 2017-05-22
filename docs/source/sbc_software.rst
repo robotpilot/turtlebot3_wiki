@@ -199,6 +199,8 @@ ROS needs IP addresses to communicate between the TurtleBot and the remote PC.
 
 Rectangled text is the IP address of the ``TurtleBot``.
 
+.. image:: _static/software/network_configuration4.png
+
 [``TurtleBot``] Do the following.
 
 .. code-block:: bash
@@ -207,7 +209,7 @@ Rectangled text is the IP address of the ``TurtleBot``.
 
 [``TurtleBot``] Change the `localhost` into the IP address shown as follows.
 
-.. image:: _static/software/network_configuration4.png
+.. image:: _static/software/network_configuration5.png
 
 [``TurtleBot``] Then, source the bashrc
 
@@ -215,7 +217,6 @@ Rectangled text is the IP address of the ``TurtleBot``.
 
   source ~/.bashrc
 
-.. image:: _static/software/network_configuration5.png
 
 .. _Alternative install(Ubuntu Desktop 16.04 LTS): https://developer.ubuntu.com/core/get-started/intel-joule#alternative-install:-ubuntu-desktop-16.04-lts
 .. _1.2 Setup your sources.list: http://wiki.ros.org/kinetic/Installation/Ubuntu#Installation.2BAC8-Ubuntu.2BAC8-Sources.Setup_your_sources.list

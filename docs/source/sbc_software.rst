@@ -205,7 +205,7 @@ Rectangled text is the IP address of the ``TurtleBot``.
 
 .. code-block:: bash
 
-  pluma ~/.bashrc
+  gedit ~/.bashrc
 
 [``TurtleBot``] Change the `localhost` into the IP address shown as follows.
 

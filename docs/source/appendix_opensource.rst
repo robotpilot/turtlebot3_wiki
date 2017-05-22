@@ -1,5 +1,5 @@
-OpenSource Software and Hardware
-================================
+Appendix #OpenSource
+====================
 
 Software
 ~~~~~~~~

@@ -27,6 +27,7 @@ TurtleBot3 Official Wiki
    appendix_opencr
    appendix_lds
    appendix_realsense
+   appendix_opensource
    faq
    contact
 

@@ -18,6 +18,7 @@ Software
  - https://github.com/turtlebot
  - https://github.com/ROBOTIS-GIT/DynamixelSDK
  - https://github.com/ROBOTIS-GIT/dynamixel-workbench
+ - https://github.com/ROBOTIS-GIT/hls_lfcd_lds_driver
  
 Hardware
 ~~~~~~~~

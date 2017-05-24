@@ -62,8 +62,7 @@ Before launching Gazebo simulation with TurtleBot3, ``TurtleBot3 model files`` s
 
 .. code-block:: bash
   
-  mkdir ~/.gazebo/
-  mkdir ~/.gazebo/models/
+  mkdir -p ~/.gazebo/models/
   cp -r  ~/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/worlds/turtlebot3 ~/.gazebo/models/
 
 Set Turtlebot3 model. Select either burger or waffle for the model parameter in the below command.

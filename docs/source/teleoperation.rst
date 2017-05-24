@@ -6,15 +6,15 @@ Teleoperation
 .. image:: _static/software/remote_pc_and_turtlebot.png
     :align: center
 
-.. NOTE:: This instruction was tested on ``Ubuntu 16.04`` and ``ROS Kinetic Kame`` version.
+.. NOTE:: This instruction was tested on ``Ubuntu 16.04`` and ``ROS Kinetic Kame``.
 
-.. WARNING:: Make sure that the step :ref:`[Bringup]<chapter_bringup>` was carried on previously to follow the instructions.
+.. WARNING:: Make sure to carry on the :ref:`[Bringup]<chapter_bringup>` instruction before to start teleoperation.
 
-.. WARNING:: Be careful when the test is being carried on the table.
+.. WARNING:: Be careful when testing the robot on the table as the robot might fall.
 
-.. TIP:: The following instructions are useless when it is operated on the TurtleBot3's SBC. **Do this at your Remote PC**.
+.. TIP:: The teleoperation is only intended to be running on the remote PC. **Follow the instruction on your Remote PC**.
 
-TurtleBot3 can be teleoperated by various devices. it is tested by using several wireless devices e.g. PS3, XBOX 360, ROBOTIS RC100, etc. These examples, except the LEAP Motion example, can be operated by ROS on Ubuntu mate 16.04 with Raspberry Pi 3 and OpenCR which controls the Dynamixel.
+TurtleBot3 can be teleoperated by various devices. It is tested with several wireless devices such as PS3, XBOX 360, ROBOTIS RC100 and etc. Examples shown here(except the LEAP Motion) can be launched by ROS on Ubuntu mate 16.04 with Raspberry Pi 3 and OpenCR which controls DYNAMIXEL.
 
 .. raw:: html
 
@@ -25,7 +25,7 @@ TurtleBot3 can be teleoperated by various devices. it is tested by using several
 Keyboard
 --------
 
-.. TIP:: Terminal is opened to go to the Ubuntu search icon, type "Terminal" or use Ctrl-Alt-T.
+.. TIP:: The terminal application can be found with the Ubuntu search icon on the top left corner of the screen. Shortcut key for terminal is Ctrl-Alt-T.
 
 [``Remote PC``] Launch the file for simple teleoperation test.
 
@@ -33,7 +33,7 @@ Keyboard
 
   roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 
-[``Remote PC``] If the file succeeds to be launched, the following will be appeared to the terminal.
+[``Remote PC``] If the program is successfully launched, the following instruction will be appeared to the terminal window.
 
 .. code-block:: bash
 
@@ -53,14 +53,14 @@ Keyboard
 RC100
 -----
 
-The settings for using the ROBOTIS RC100 is already in the OpenCR firmware for ROS, so there are no more required packages.
+The settings for ROBOTIS RC100 controller is included in the OpenCR firmware.
 
 PS3 Joystick
 ------------
 
-[``Remote PC``] Connect the PS3 Joystick to the PC via the Bluetooth or the USB cable.
+[``Remote PC``] Connect the PS3 Joystick to the remote PC via Bluetooth or with USB cable.
 
-[``Remote PC``] Install the packages for the teleoperation using PS3 joystick.
+[``Remote PC``] Install packages for the teleoperation using PS3 joystick.
 
 .. code-block:: bash
 
@@ -75,9 +75,9 @@ PS3 Joystick
 XBOX 360 Joystick
 -----------------
 
-[``Remote PC``] Connect the XBOX 360 Joystick to the PC via the Wireless Adapter or the USB cable.
+[``Remote PC``] Connect the XBOX 360 Joystick to the remote PC with Wireless Adapter or USB cable.
 
-[``Remote PC``] Install the packages for the teleoperation using XBOX 360 joystick.
+[``Remote PC``] Install packages for the teleoperation using XBOX 360 joystick.
 
 .. code-block:: bash
 
@@ -94,9 +94,9 @@ XBOX 360 Joystick
 Wii Remote
 ----------
 
-[``Remote PC``] Connect the Wii remote to the PC via the Bluetooth.
+[``Remote PC``] Connect the Wii remote to the remote PC via Bluetooth.
 
-[``Remote PC``] Install the packages for the teleoperation using Wii remote.
+[``Remote PC``] Install the package for the teleoperation using Wii remote.
 
 .. code-block:: bash
 
@@ -118,15 +118,15 @@ Nunchuk
 Android App
 -----------
 
-Download the `ROS Teleop`_ and run the application program.
+Download the `ROS Teleop`_ and run the application.
 
 
 LEAP Motion
 -----------
 
-[``Remote PC``] Connect the LEAP motion to the PC via the Bluetooth.
+[``Remote PC``] Connect the LEAP motion to the remote PC via Bluetooth.
 
-[``Remote PC``] Install the packages for the teleoperation using LEAP motion.
+[``Remote PC``] Install packages for the teleoperation using LEAP motion.
 
 - https://www.leapmotion.com/setup
 - https://developer.leapmotion.com/downloads/sdk-preview

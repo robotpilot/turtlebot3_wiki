@@ -5,28 +5,29 @@ Navigation
 
 .. NOTE:: This instruction was tested on ``Ubuntu 16.04`` and ``ROS Kinetic Kame`` version.
 
-.. WARNING:: Make sure that the step :ref:`[Bringup]<chapter_bringup>` was carried on previously to follow the instructions.
+.. WARNING:: Make sure to carry on the :ref:`[Bringup]<chapter_bringup>` instruction before to start Navigation.
 
-.. WARNING:: The navigation uses the map data created in the step :ref:`[SLAM]<chapter_slam>`. Check if the previous step is not done yet.
+.. WARNING:: The navigation uses the map data created in :ref:`[SLAM]<chapter_slam>`. Please make sure to have a map data.
 
-.. WARNING:: Be careful when the test is being carried on the table.
+.. WARNING:: Be careful when testing the robot on the table as the robot might fall.
 
-The main use of the navigation technique is to bring the robot into the expected position.
+ The Navigation locates TurtleBot3 to the expected position in the map by combining actual sensor data and probability.
 
 
-Do the navigation
------------------------------------------
+Run the Navigation
+------------------
 
-.. TIP:: Terminal is opened to go to the Ubuntu search icon, type "Terminal" or use Ctrl-Alt-T.
+.. TIP:: The terminal application can be found with the Ubuntu search icon on the top left corner of the screen. Shortcut key for terminal is Ctrl-Alt-T.
 
 [``Remote PC``] Launch the navigation file.
+If you have TurtleBot3 Burger,
 
 .. code-block:: bash
 
   export TURTLEBOT3_MODEL=burger
   roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/map.yaml
 
-If your robot is TurtleBot3 Waffle,
+If you have TurtleBot3 Waffle,
 
 .. code-block:: bash
 
@@ -40,20 +41,20 @@ If your robot is TurtleBot3 Waffle,
 
   rosrun rviz rviz -d `rospack find turtlebot3_navigation`/rviz/turtlebot3_nav.rviz
 
-[``Remote PC``] Before starting the navigation, the TurtleBot3 should know its location and pose. To give the initial data, follow the description.
+[``Remote PC``] Before starting the navigation, the TurtleBot3 should know its location and pose. To give the initial data, follow the instruction below.
 
 - Click the ``2D Pose Estimate`` button.
-- Set the approximate location on the map by clicking and drag the direction accros the map.
+- Click on the specific point in the map to set the approximate location and drag the cursor to indicate the direction where TurtleBot3 faces.
 
-Each points of arrow mean the expected poses of the TurtleBot3. The laser scanner will draw the lines at approximate positions like the wall on the map. If the drawing doesn't show the lines well, repeat above procedures.
+Every green arrow stands for expected pose of the TurtleBot3. The laser scanner will draw approximate figures of wall on the map. If the drawing doesn't show the figures incorrectly, repeat localizing the TurtleBot3 from clicking ``2D Pose Estimate`` button above.
 
-[``Remote PC``] When the TurtleBot3 is localized, it will automatically plan the path. To send a goal location,
+[``Remote PC``] If the TurtleBot3 is localized, it will automatically create the path to the target pose. In order to set a goal loation, follow the instruction below.
 
 - Click the ``2D Nav Goal`` button.
-- Click on the map where you want the TurtleBot to drive and drag in the direction the TurtleBot should be pointing at the end.
+- Click on the specific point in the map to set as goal location and drag the cursor to the direction where TurtleBot should be facing in the end.
 
-This can be failed if the path for the goal location is blocked.
-To stop the robot before it reaches to the goal location, send the current location of the TurtleBot3.
+Setting a goal location might fail if the path to the goal location cannot be created.
+If you wish to stop the robot before it reaches to the goal location, set the current location of the TurtleBot3 as goal location.
 
 .. raw:: html
 

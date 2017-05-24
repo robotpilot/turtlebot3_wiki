@@ -11,7 +11,7 @@ SLAM
 
 The Simultaneous Localization and Mapping, or SLAM, is a technique to draw a map by estimating current location in the virtual space while building a map in the arbitrary space.
 
-The SLAM technique is a well known feature of typical function of the TurtleBot3, and is a class of the Turtlebot brand. A video here shows how much accurately the TurtleBot3 can draw the map, even if it is a small, cheap robot platform.
+The SLAM is the well-known feature of the TurtleBot from predecessors. The video here shows you how accurately the TurtleBot3 can draw a map with its compact and affordable platform.
 
 .. raw:: html
 
@@ -41,19 +41,20 @@ The SLAM technique is a well known feature of typical function of the TurtleBot3
 :Duration: About 4 minutes
 :Distance: Total 15 meters
 
-Create a map through the teleoperation
-------------------------------
+Create a Map with Teleoperation
+-------------------------------
 
-.. TIP:: Terminal is opened to go to the Ubuntu search icon, type "Terminal" or use Ctrl-Alt-T.
+.. TIP:: The terminal application can be found with the Ubuntu search icon on the top left corner of the screen. Shortcut key for terminal is Ctrl-Alt-T.
 
-[``Remote PC``] Open a terminal, then run the SLAM launch file.
+[``Remote PC``] Open a terminal and execute the SLAM launch file.
+If you have TurtleBot3 Burger,
 
 .. code-block:: bash
 
   export TURTLEBOT3_MODEL=burger
   roslaunch turtlebot3_slam turtlebot3_slam.launch
 
-If your robot is TurtleBot3 Waffle,
+If you have TurtleBot3 Waffle,
 
 .. code-block:: bash
 
@@ -61,7 +62,7 @@ If your robot is TurtleBot3 Waffle,
   roslaunch turtlebot3_slam turtlebot3_slam.launch
 
 
-[``Remote PC``] Visualize the model by the RViz.
+[``Remote PC``] Visualize the model in 3D with RViz.
 
 .. code-block:: bash
 
@@ -73,13 +74,13 @@ If your robot is TurtleBot3 Waffle,
 
   roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 
-Save the map to file
---------------------
+Save the Map
+------------
 
-[``Remote PC``] Open a terminal, then run map saver node.
+[``Remote PC``] Open the terminal and run the map saver node.
 
 .. code-block:: bash
 
   rosrun map_server map_saver -f ~/map
 
-The files named as **map.pgm** and **map.yaml** will be built in the ``~/`` directory ($HOME directory, /home/<username>).
+**map.pgm** and **map.yaml** files will be created in the ``~/`` directory ($HOME directory, /home/<username>).

@@ -4,25 +4,25 @@ OpenCR Software Setup
 .. image:: _static/software/remote_pc_and_turtlebot.png
     :align: center
 
-.. WARNING:: The following contents correspond to ``Remote PC`` (your desktop or laptop PC) which controls TurtleBot3. You should never apply the following to your TurtleBot.
+.. WARNING:: The contents in this chapter corresponds to the ``Remote PC`` (your desktop or laptop PC) which will control TurtleBot3. Do NOT apply this instruction to your TurtleBot3.
 
 .. NOTE:: The OpenCR board is pre-loaded with the software needed to run your specific TurtleBot3 model(Burger or Waffle). Refer to the information below only if you want to modify the existing software or write new software for the OpenCR. 
 
-.. NOTE:: This instruction was tested on ``Ubuntu 16.04`` and ``ROS Kinetic Kame`` version and this setup can be done on Intel® Joule™.
+.. NOTE:: This instruction was tested on ``Ubuntu 16.04`` and ``ROS Kinetic Kame`` and OpenCR software setup can be done from Intel® Joule™.
 
-The OpenCR controls the Dynamixels on the instructions from the SBC. To do this, a specific firmware should be built in the board. See the descriptions and configure the settings.
+The OpenCR controls DYNAMIXELs with instructions from the SBC. To be able to control DYNAMIXELs, a specific firmware should be installed on the board. See the descriptions and configure the settings.
 
 ArduinoIDE settings for the OpenCR
 ----------------------------------
 
-Follow the instructions to get the OpenCR Arduino development environment on the ``Remote PC``.
+Following instructions will setup the OpenCR Arduino development environment on the ``Remote PC``.
 
 USB port settings
 ~~~~~~~~~~~~~~~~~
 
-.. TIP:: Terminal is opened to go to the Ubuntu search icon, type "Terminal" or use Ctrl-Alt-T.
+.. TIP:: The terminal application can be found with the Ubuntu search icon on the top left corner of the screen. Shortcut key for terminal is Ctrl-Alt-T.
 
-[``Remote PC``] Make the OpenCR USB port be able to upload the ``Arduino IDE`` program without root permission.
+[``Remote PC``] The following commands allow to use OpenCR USB port for uploading ``Arduino IDE`` program without acquiring root permission.
 
 .. code-block:: bash
 
@@ -34,53 +34,59 @@ USB port settings
 Compiler Settings
 ~~~~~~~~~~~~~~~~~
 
-[``Remote PC``] Since the OpenCR libraries is built for 32 bit platform, 64 bit PC needs the 32 bit compiler relevants for the ArduinoIDE.
+[``Remote PC``] The OpenCR libraries are designed for 32-bit platform, therefore, 64-bit PC requires 32-bit compiler for the ArduinoIDE.
 
 .. code-block:: bash
 
   sudo apt-get install libncurses5-dev:i386
 
 
-Install the Arduino IDE
+Install Arduino IDE
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-[``Remote PC``] Download the latest version of ``Arduino IDE`` from the official arduino homepage, and install it. Currently, the OpenCR will be on service in the version ``1.6.12`` or later (It has also been tested in version ``1.8.1``.).
+[``Remote PC``] Download the latest version of ``Arduino IDE`` from official arduino homepage and install the program. The OpenCR supports Arduino IDE ``1.6.12`` or later (OpenCR has also been tested with Arduino IDE ``1.8.1``.).
 
 https://www.arduino.cc/en/Main/Software
 
-[``Remote PC``] Then, extract the downloaded file to the desired folder and execute the installation file from the terminal. In this case, the example shown below makes the folder *tools* in the user's top folder (``~/``). This folder will act as the Arduino IDE folder.
+[``Remote PC``] Extract downloaded file to desired folder and execute the installation file from the terminal. The below example uses *tools* folder in the root directory (``~/``). This folder will act as the Arduino IDE folder.
 
 .. code-block:: bash
 
   cd ~/tools/arduino-1.8.1
   ./install.sh
 
-[``Remote PC``] Set the file path of installed ``Arduino IDE`` as an absolute path named ``PATH`` in the ``bashrc`` file. Here recommends to use **gedit editor**. (Use another editor, if necessary.) Finally, `source` it to apply the changes.
+[``Remote PC``] Open the environment file with below command.
 
 .. code-block:: bash
 
   gedit ~/.bashrc
 
+[``Remote PC``] Append below ``Arduino IDE`` path information at the end of the ``bashrc`` file. It is recommended to use **gedit editor**. (Use another editor if necessary)
+
 .. code-block:: bash
 
   export PATH=$PATH:$HOME/tools/arduino-1.8.1
+
+[``Remote PC``] Last but not least `source` the ``bashrc`` file to apply changes.
 
 .. code-block:: bash
 
   source ~/.bashrc
 
-Run the Arduino IDE
+Run Arduino IDE
 ~~~~~~~~~~~~~~~~~~~
 
-[``Remote PC``] To run the ``Arduino IDE`` on Linux platform, type into the terminal as follows.
+[``Remote PC``] In order to run ``Arduino IDE`` on Linux platform, enter below command on the terminal.
 
 .. code-block:: bash
 
   arduino
 
+[``Remote PC``] If the program is installed and setup correctly, you'll be able to see GUI program as below.
+
 .. image:: _static/preparation/ide0.png
 
-Porting the OpenCR board to the Arduino IDE
+Porting OpenCR board to Arduino IDE
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Preferences

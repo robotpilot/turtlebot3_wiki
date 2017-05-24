@@ -86,13 +86,13 @@ Run Arduino IDE
 
 .. image:: _static/preparation/ide0.png
 
-Porting OpenCR board to Arduino IDE
+Porting OpenCR to Arduino IDE
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Preferences
 ...........
 
-[``Remote PC``] After ``Arduino IDE`` is run, click ``File`` → ``Preferences`` in the top menu of the IDE. When the *Preferences* window appears, copy and paste following link to the ``Additional Boards Manager URLs`` textbox. (This step may take about 20 min.)
+[``Remote PC``] When ``Arduino IDE`` is running, go to ``File`` → ``Preferences`` from the menu of the program. When the *Preferences* window appears, copy and paste following link to the ``Additional Boards Manager URLs`` textbox. (This step may take about 20 min.)
 
 .. code-block:: bash
 
@@ -100,104 +100,95 @@ Preferences
 
 .. image:: _static/preparation/ide1.png
 
-Install the OpenCR package via Boards Manager
+Install OpenCR Package with Boards Manager
 .............................................
 
-[``Remote PC``] Click ``Tools`` → ``Board`` → ``Boards Manager``.
+[``Remote PC``] Go to ``Tools`` → ``Board`` → ``Boards Manager``.
 
 .. image:: _static/preparation/ide2.png
 
-[``Remote PC``] Type `OpenCR` into the textbox to find the ``OpenCR by ROBOTIS`` package. After it finds out, click ``Install``.
+[``Remote PC``] Type `OpenCR` into the textbox to find the ``OpenCR by ROBOTIS`` package. If the package is found, click ``Install``.
 
 .. image:: _static/preparation/ide3.png
 
-[``Remote PC``] After the installation, "INSTALLED" will be appeared.
+[``Remote PC``] When the package installation is completed, "INSTALLED" text will be appeared next to the package name.
 
 .. image:: _static/preparation/ide4.png
 
-[``Remote PC``] See if ``OpenCR Board`` is now on the list of ``Tools`` → ``Board``. Click this to import the OpenCR Board source.
+[``Remote PC``] See if ``OpenCR Board`` is now in the list of ``Tools`` → ``Board``. Select ``OpenCR Board`` to import the OpenCR Board source.
 
 .. image:: _static/preparation/ide5.png
 
-Port setting
+Port Setting
 ............
 
-[``Remote PC``] This step shows the port setting for the program uploads. The OpenCR should be connected to the PC and the OpenCR via the USB ports.
+[``Remote PC``] This section shows how to setup the USB port for program upload. The OpenCR should be connected to the PC with the USB port.
  
 [``Remote PC``] Select ``Tools`` → ``Port`` → ``/dev/ttyACM0``.
 
-.. WARNING:: The value of ``/dev/ttyACM0`` may be different depending on the environment connected to the PC.
+.. WARNING:: The last digit value `0` in the above string ``/dev/ttyACM0`` might be different depending on the USB connection environment.
 
 .. image:: _static/preparation/ide6.png
 
-Modemmanager removal
-~~~~~~~~~~~~~~~~~~~~
-
-[``Remote PC``] After programming with the Arduino IDE and uploading the program to the OpenCR, the OpenCR will be restarted and be reconnected. At the same moment, the modem-related packages of the Linux will send the AT command to manage the device. Thus indicates an connection error on the OpenCR, so this step should be done previously.
-
-.. code-block:: bash
-
-  sudo apt-get purge modemmanager
-
-
-Bootloader writing (can be skipped)
+Writing Bootloader (can be skipped)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. NOTE:: The following is not necessary until there is new updates of OpenCR bootloader. Besides, once the bootloader is burned in the board, IT DOESN'T NEED EXTRA BURNING.
+.. NOTE:: This section is not necessary until there is new updates in the OpenCR bootloader. Once the bootloader is burned on the board, IT DOESN'T NEED EXTRA BURNING.
 
-The STM32F7xx, which is used for the main MCU on the OpenCR board, supports DFU(Device Firmware Upgrade). This enables the built-in bootloader of the MCU by itself to boot the DFU protocol by using USB, primarily for the bootloader initialization, the recovery mode, and the bootloader update. The biggest advantage to let the users be able to use bootloader with USB but no other JTAG equipment. Write the firmware by using the DFU mode which is embedded in MCU without writing / debugging equipment, such as STLink.
+The STM32F7xx, which is used for the main MCU of the OpenCR board, supports DFU(Device Firmware Upgrade). This enables built-in bootloader of the MCU to boot with the DFU protocol by using USB, primarily for the bootloader initialization, the recovery mode and the bootloader update. The biggest advantage of using bootloader with USB is that JTAG equipment is not required. Therefore, writing the new firmware by using the DFU mode which is embedded in MCU will not require writing / debugging equipment such as STLink.
 
 Programmer Setting
 ..................
 
-[``Remote PC``] Select ``Tools`` → ``DFU-UTIL``
+[``Remote PC``] Go to ``Tools`` → ``DFU-UTIL``
 
 .. image:: _static/preparation/ide7.png
 
-Run DFU mode.
-............
+Enter the DFU mode
+...................
 
-[``Remote PC``] Press the ``Reset`` button while the ``Boot`` button is being pushed. This activates the DFU mode.
+[``Remote PC``] Press ``Reset`` button while ``Boot`` button is pressed. This enables user to activate the DFU mode.
 
 .. image:: _static/preparation/opencr_button_for_dfu.png
 
-Download the bootloader.
-......................
+Download the Bootloader
+.......................
 
-[``Remote PC``] Click ``Tools`` → ``Burn Bootloader`` to download the bootloader.
+[``Remote PC``] Go to ``Tools`` → ``Burn Bootloader`` to download the bootloader.
 
 .. image:: _static/preparation/ide9.png
 
-[``Remote PC``] Press ``Reset`` button again, and now the preparation is completed.
+[``Remote PC``] When download is completed, press ``Reset`` button again.
 
-[``Remote PC``] You can check whether the burning was completed successfully by typing *lsusb* and find ``STMicroelectronics STM Device in DFU Mode``.
+[``Remote PC``] If bootloader burning is successfully completed, you will be able to find ``STMicroelectronics STM Device in DFU Mode`` text string when *lsusb* is entered in the terminal.
 
 .. image:: _static/preparation/ide10.png
 
-OpenCR Firmware settings for ROS
+OpenCR Firmware Settings for ROS
 --------------------------------
 
-Add the TurtleBot3 firmware into the OpenCR
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Add TurtleBot3 Firmware to the OpenCR
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The OpenCR firmware (or the source) for ROS is to control the Dynamixel and the sensors in the ROS. The firmware is located in the OpenCR example, which is downloaded also by the board manager.
+The OpenCR firmware (or the source) for ROS is to control the DYNAMIXEL and sensors in the ROS. The firmware is located in the OpenCR example which is downloaded by the board manager.  
+If you have TurtleBot3 Burger,
 
-[``Remote PC``] Click ``File`` → ``Examples`` → ``turtlebot3`` → ``turtlebot3_burger`` → ``turtlebot3_core``.
+[``Remote PC``] Go to ``File`` → ``Examples`` → ``turtlebot3`` → ``turtlebot3_burger`` → ``turtlebot3_core``.
 
-If your robot is TurtleBot3 Waffle,
+If you have TurtleBot3 Waffle,
 
-[``Remote PC``] Click ``File`` → ``Examples`` → ``turtlebot3`` → ``turtlebot3_waffle`` → ``turtlebot3_core``.
+[``Remote PC``] Go to ``File`` → ``Examples`` → ``turtlebot3`` → ``turtlebot3_waffle`` → ``turtlebot3_core``.
 
 .. image:: _static/opencr/o1.png
 
-[``Remote PC``] Click ``Upload`` to get the firmware into the OpenCR.
+[``Remote PC``] Click ``Upload`` button to write the firmware into the OpenCR.
 
 .. image:: _static/opencr/o2.png
 
 .. image:: _static/opencr/o3.png
 
-.. NOTE:: Check again if the port is set properly by seeing ``Tools`` → ``Port``.
+.. NOTE:: Go to ``Tools`` → ``Port`` to check if the port is set properly.
 
-[``Remote PC``] When it completes the upload, the text ``jump_to_fw`` will be shown.
+[``Remote PC``] When firmware writing is completed, ``jump_to_fw`` text string will be printed on the screen.
 
 .. _ROS: http://wiki.ros.org

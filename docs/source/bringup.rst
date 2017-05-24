@@ -8,17 +8,17 @@ Bringup
 
 .. NOTE:: This instruction was tested on ``Ubuntu 16.04`` and ``ROS Kinetic Kame``.
 
-.. WARNING:: Follow the instructions and do at your ``TurtleBot`` without roscore command.
+.. WARNING:: This instruction is intended to be run on the remote PC. If you are following the instruction on ``TurtleBot``, please do NOT run *roscore* command.
 
-.. WARNING:: Check if the IP addresses on each devices are set correctly.
+.. WARNING:: Check if IP address on each device is set correctly.
 
-.. WARNING:: The buzzer alarm is continuously sounded and the robot's actuator operation is stopped when the battery of the robot reaches 11V. The battery must be charged when the buzzer alarm sounds.
+.. WARNING:: When the battery voltage is lower than 11V, the buzzer alarm will continuously sound and actuators will be disabled. The battery must be recharged when the buzzer alarm sounds.
 
 
 Bringup the TurtleBot3
 ----------------------
 
-.. TIP:: Terminal is opened to go to the Ubuntu search icon, type "Terminal" or use Ctrl-Alt-T.
+.. TIP:: The terminal application can be found with the Ubuntu search icon on the top left corner of the screen. Shortcut key for terminal is Ctrl-Alt-T.
 
 [``Remote PC``] Run roscore.
 
@@ -30,14 +30,14 @@ Bringup the TurtleBot3
 TurtleBot3 Burger
 ~~~~~~~~~~~~~~~~~
 
-[``TurtleBot``] Bring up the basic packages to start the TurtleBot3 applications.
+[``TurtleBot``] Bring up basic packages to start TurtleBot3 applications.
 
 .. code-block:: bash
 
   roslaunch turtlebot3_bringup turtlebot3_robot.launch
 
 .. TIP::
-  Someone who want to launch Lidar sensor or core separately, use below command
+  If you want to launch Lidar sensor and core separately, please use below commands.
 
   .. code-block:: bash
 
@@ -45,7 +45,7 @@ TurtleBot3 Burger
     roslaunch turtlebot3_bringup turtlebot3_core.launch
 
 .. NOTE::
-  If the terminal shows `lost sync with device` error message, the sensor device of the TurtleBot3 must be incompletely connected.
+  If `lost sync with device` error message is displayed on the terminal window, the sensor device of the TurtleBot3 might not be securely connected.
 
 [``Remote PC``] Run rviz
 
@@ -59,14 +59,14 @@ TurtleBot3 Burger
 TurtleBot3 Waffle
 ~~~~~~~~~~~~~~~~~
 
-[``TurtleBot``] Bring up the basic packages to start the TurtleBot3 applications.
+[``TurtleBot``] Bring up basic packages to start TurtleBot3 applications.
 
 .. code-block:: bash
 
   roslaunch turtlebot3_bringup turtlebot3_robot.launch
 
 .. TIP::
-  Someone who want to launch Lidar sensor, Intel® RealSense™ R200 or core separately, use below command
+  If you want to launch Lidar sensor, Intel® RealSense™ R200 and core separately, please use below commands.
 
   .. code-block:: bash
 
@@ -75,7 +75,7 @@ TurtleBot3 Waffle
     roslaunch turtlebot3_bringup turtlebot3_core.launch
 
 .. NOTE::
-  If the terminal shows `lost sync with device` error message, the sensor device of the TurtleBot3 must be incompletely connected.
+  If `lost sync with device` error message is displayed on the terminal window, sensor devices of the TurtleBot3 might not be securely connected.
 
 [``Remote PC``] Run rviz
 
@@ -86,4 +86,4 @@ TurtleBot3 Waffle
 
 .. image:: _static/bringup/rviz_waffle_model.jpg
 
-Now, test the TurtleBot3 with various teleoperation methods.
+Now, you can test TurtleBot3 with various teleoperation methods.

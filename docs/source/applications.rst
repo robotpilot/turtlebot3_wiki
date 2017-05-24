@@ -1,12 +1,12 @@
 Applications
 ============
 
-This section shows some demos using Turtlebot3.
-For implementing you have to install the turtlebot3_applications package.
+This chapter shows some demos using Turtlebot3.
+In order to implement these demos, you have to install the turtlebot3_applications package.
 
-.. NOTE:: The Turtlebot3 has been tested on ``Ubuntu 16.04`` and ``ROS Kinetic Kame`` version.
+.. NOTE:: The Turtlebot3 has been tested on ``Ubuntu 16.04`` and ``ROS Kinetic Kame``.
 
-.. TIP:: Terminal is opened to go to the Ubuntu search icon, type "Terminal" or use Ctrl-Alt-T.
+.. TIP:: The terminal application can be found with the Ubuntu search icon on the top left corner of the screen. Shortcut key for terminal is Ctrl-Alt-T.
 
 [``Remote PC``] Go to  ROS source directory (/home/<user_name>/catkin_ws/src) and clone the turtlebot3_applications repository.
 
@@ -30,9 +30,9 @@ TurtleBot Follower Demo
 TurtleBot Panorama Demo Using Raspberry Pi Camera Module
 --------------------------------------------------------
 
-.. NOTE:: The turtlebot3_panorama demo uses pano_ros for taking snapshots and stitching them together to create panorama pictures.
-.. NOTE:: Panorama Demo requires to have Raspicam package installed. Instructions for installing this package can be found in https://github.com/UbiquityRobotics/raspicam_node
-.. NOTE:: Panorama Demo requires to have OpenCV and cvbridge package. Instructions for installing OpenCV are found in http://docs.opencv.org/2.4/doc/tutorials/introduction/linux_install/linux_install.html
+.. NOTE:: The turtlebot3_panorama demo uses pano_ros for taking snapshots and stitching them together to create panoramic image.
+.. NOTE:: Panorama Demo requires to install Raspicam package. Instructions for installing this package can be found at https://github.com/UbiquityRobotics/raspicam_node
+.. NOTE:: Panorama Demo requires to install OpenCV and cvbridge packages. Instructions for installing OpenCV can be found at http://docs.opencv.org/2.4/doc/tutorials/introduction/linux_install/linux_install.html
 
 [``TurtleBot``] Launch the Raspberry Pi cam V2
 
@@ -53,14 +53,14 @@ TurtleBot Panorama Demo Using Raspberry Pi Camera Module
   rosservice call turtlebot3_panorama/take_pano 0 360.0 30.0 0.3
 
 
-Parameters that can be sent to the rosservice to take a pano are:
+Parameters that can be sent to the rosservice to get a panoramic image are:
 
 - mode for taking the pictures. Can be:
     0 for snap&rotate (i.e. rotate, stop, snapshot, rotate, stop, snapshot, ...)
     1 for continuous (i.e. keep rotating while taking snapshots)
-    2 to stop an ongoing panorama creation
-- total angle of panorama picture, in degrees
-- angle interval (in degrees) when creating the panorama picture in snap&rotate mode, time interval (in seconds) otherwise
+    2 to stop taking pictures and create panoramic image
+- total angle of panoramic image, in degrees
+- angle interval (in degrees) when creating the panoramic image in snap&rotate mode, time interval (in seconds) otherwise
 - rotating velocity (in radians/s)
 
 

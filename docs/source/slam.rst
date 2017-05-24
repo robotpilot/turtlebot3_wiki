@@ -3,15 +3,15 @@
 SLAM
 ====
 
-.. NOTE:: This instruction was tested on ``Ubuntu 16.04`` and ``ROS Kinetic Kame`` version.
+.. NOTE:: This instruction was tested on ``Ubuntu 16.04`` and ``ROS Kinetic Kame``.
 
-.. WARNING:: Make sure that the step :ref:`[Bringup]<chapter_bringup>` was carried on previously to follow the instructions.
+.. WARNING:: Make sure to carry on the :ref:`[Bringup]<chapter_bringup>` instruction before to start SLAM.
 
-.. TIP:: Here recommends to use the joystick pad instead of the keyboard, because of its operability.
+.. TIP:: It is recommended to use a joystick pad instead of the keyboard for easier control.
 
-The Simultaneous Localization and Mapping, or SLAM, is a technique to draw a map by estimating the current position in virtual space while searching the areas in the arbitrary space.
+The Simultaneous Localization and Mapping, or SLAM, is a technique to draw a map by estimating current location in the virtual space while building a map in the arbitrary space.
 
-The SLAM technique is a typical function of the TurtleBot3, and is a class of the Turtlebot brand. A video here shows how much accurately the TurtleBot3 can draw the map, even if it is a small, cheap robot platform.
+The SLAM technique is a well known feature of typical function of the TurtleBot3, and is a class of the Turtlebot brand. A video here shows how much accurately the TurtleBot3 can draw the map, even if it is a small, cheap robot platform.
 
 .. raw:: html
 

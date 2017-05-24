@@ -4,22 +4,22 @@ SBC Software Setup
 .. image:: _static/software/remote_pc_and_turtlebot.png
     :align: center
 
-.. NOTE:: A ``SBC(Single-Board Computer)`` is a complete computer built on a single circuit board, with microprocessor(s), memory, input/output (I/O) and other features required of a functional computer. The TurtleBot3 uses Raspberry Pi (TB3 Burger) and Intel® Joule™ (TB3 Waffle) as SBC.
+.. NOTE:: The ``SBC(Single-Board Computer)`` is a complete computer built on a single circuit board with microprocessor(s), memory, input/output (I/O) and other features required as a fully functional computer. The TurtleBot3 uses Raspberry Pi (TB3 Burger) and Intel® Joule™ (TB3 Waffle) as SBC.
 
-.. NOTE:: This instruction was tested on ``Ubuntu 16.04`` and ``ROS Kinetic Kame`` version.
+.. NOTE:: This instruction was tested on ``Ubuntu 16.04`` and ``ROS Kinetic Kame``.
 
-Install the Linux for TurtleBot3 Burger (Raspberry Pi 3)
+Install Linux on the TurtleBot3 Burger (Raspberry Pi 3)
 ---------------------------------------------------------
 
-.. WARNING:: The SDcard should have its capacity more than **8 GB** for the installation of the TurtleBot3.
+.. WARNING:: The SDcard should have at least **8 GB** of empty space in order to install Linux on the TurtleBot3.
 
-[``Remote PC``] Download the ``Ubuntu MATE 16.04`` version on the Raspberry Pi 3 from the link below.
+[``Remote PC``] Download ``Ubuntu MATE 16.04`` on the Raspberry Pi 3 from the link below.
 
 - https://ubuntu-mate.org/download/
 
 .. image:: _static/preparation/download_ubuntu_mate_image.png
 
-[``Remote PC``] To install Ubuntu MATE by using the image file, we recommend using GNOME Disks and the ``Restore Disk Image…`` option, which natively supports XZ compressed images.
+[``Remote PC``] In order to install Ubuntu MATE from an image file, it is recommended using GNOME Disks with ``Restore Disk Image…`` option, which natively supports XZ compressed image.
 
 .. code-block:: bash
 
@@ -31,7 +31,7 @@ Install the Linux for TurtleBot3 Burger (Raspberry Pi 3)
 
 |
 
-.. TIP:: We recommend using ``GNOME Disks``, but we can use other methods using ``ddrescue`` on Linux
+.. TIP:: It is recommended using ``GNOME Disks``, but other applications such as ``ddrescue`` on Linux can be used.
 
   .. code-block:: bash
 
@@ -39,32 +39,32 @@ Install the Linux for TurtleBot3 Burger (Raspberry Pi 3)
     unxz ubuntu-mate-16.04.2-desktop-armhf-raspberry-pi.img.xz
     sudo ddrescue -D --force ubuntu-mate-16.04.2-desktop-armhf-raspberry-pi.img /dev/sdx
 
-.. TIP:: We recommend using ``GNOME Disks``, but we can use other methods using ``Win32 Disk Imager`` on Windows
+.. TIP:: It is recommended using ``GNOME Disks``, but other applications such as ``Win32 Disk Imager`` on Windows can be used.
 
   https://sourceforge.net/projects/win32diskimager/
 
-Install the Linux for TurtleBot3 Waffle (Intel® Joule™)
+Install Linux on the TurtleBot3 Waffle (Intel® Joule™)
 -------------------------------------------------------
 
-In this section, Alternative Ubuntu Desktop 16.04 LTS will be installed on Intel® Joule™ by following below instructions.
+In this section, an alternative Ubuntu Desktop 16.04 LTS will be installed on Intel® Joule™.
 
-[``Remote PC``] Download the Ubuntu image ``Alternative Ubuntu 16.04 for Intel® Joule™`` from the link.
+[``Remote PC``] Download Ubuntu image ``Alternative Ubuntu 16.04 for Intel® Joule™`` from the below link.
 
 - http://people.canonical.com/~platform/snappy/tuchuck/desktop-final/tuchuck-xenial-desktop-iso-20170317-0.iso
 
-[``Remote PC``] To make a bootable installation USB drive, you can use _`Alternative install(Ubuntu Desktop 16.04 LTS)`_ section from below link.
+[``Remote PC``] In order to make a bootable installation USB drive, you can use `Alternative install(Ubuntu Desktop 16.04 LTS)`_ section from the below link.
 
 - https://developer.ubuntu.com/core/get-started/intel-joule
 
-[``Remote PC``] Before installing Ubuntu, Joule needs a BIOS update to install Ubuntu Image. Download firmware which contains Joule's new BIOS and flash the BIOS into the Joule by following linked instructions below.
+[``Remote PC``] Before getting started, Joule requires a BIOS update to install Ubuntu Image. Download the latest software which contains Joule's new BIOS and flash the BIOS into the Joule by following instructions below.
 
 - https://software.intel.com/en-us/flashing-the-bios-on-joule
 
-.. WARNING:: ``Intel® Joule™`` comes with ``passive heatsink`` in the package. It is recommended to use the heatsink. In order to use Joule without the heatsink, please follow the extra instruction: https://software.intel.com/en-us/node/721471
+.. WARNING:: ``Intel® Joule™`` comes with ``passive heatsink`` in the package. It is recommended to use the heatsink. In order to operate Joule without the heatsink, please follow the extra instruction: https://software.intel.com/en-us/node/721471
 
-[``Intel® Joule™``] Connect ``micro HDMI to HDMI cable``, ``power connector supplied by OpenCR``, ``USB devices`` including ``Bootable USB drive``, ``mouse`` and ``keyboard``. You might need a USB hub to plug multiple USB devices.
+[``Intel® Joule™``] Connect ``micro HDMI to HDMI cable``, ``power connector supplied by OpenCR``, ``USB devices`` including ``Bootable USB drive``, ``mouse`` and ``keyboard``. You might need a USB hub to plug multiple USB devices into Joule.
 
-[``Intel® Joule™``] Installation will be proceeded as shown in below images. When Joule is turned on, monitor will blink about 3 times after 5 seconds, and display options. Press ``f7`` to go to ``boot manager``.
+[``Intel® Joule™``] Installation will be proceeded as shown in below images. When Joule is turned on, monitor will blink about 3 times after 5 seconds, and print menu screen. Press ``F7`` to go to ``Boot Manager``.
 
 .. image:: _static/preparation/j1.JPG
 
@@ -82,7 +82,7 @@ In this section, Alternative Ubuntu Desktop 16.04 LTS will be installed on Intel
 
 .. image:: _static/preparation/j6.JPG
 
-[``Intel® Joule™``] Every ``Intel® Joule™`` has two different disk drives: 16GB micro SD Card and 16GB eMMC. This description suggest to install the ``Alternarive Ubuntu for Joule`` on the ``16GB eMMC``. Select ``MMC/SD card #2 (mmcblk1) - 15.7 GB MMC 016G32`` then ``continue``.
+[``Intel® Joule™``] Every ``Intel® Joule™`` has two different disk drives: 16GB micro SD Card and 16GB eMMC. In this instruction, it is highly recommended to install ``Alternarive Ubuntu for Joule`` on the ``16GB eMMC``. Select ``MMC/SD card #2 (mmcblk1) - 15.7 GB MMC 016G32`` then ``continue``.
 
 .. image:: _static/preparation/j7.JPG
 
@@ -96,11 +96,11 @@ In this section, Alternative Ubuntu Desktop 16.04 LTS will be installed on Intel
 
 .. image:: _static/preparation/j10.JPG
 
-[``Intel® Joule™``] Remove bootable USB drive.
+[``Intel® Joule™``] Remove bootable USB drive from Joule.
 
 .. image:: _static/preparation/j11.JPG
 
-[``Intel® Joule™``] Don't press any key. It will boot with ``16GB eMMC`` as a default boot device.
+[``Intel® Joule™``] Don't press any key. It will boot from ``16GB eMMC`` which is a default boot device.
 
 .. image:: _static/preparation/j12.JPG
 
@@ -127,12 +127,12 @@ In this section, Alternative Ubuntu Desktop 16.04 LTS will be installed on Intel
 
 
 
-Install ROS and packages (Burger and Waffle)
+Install ROS and Packages (Burger and Waffle)
 ------------------------------------------------
 
-.. WARNING:: The following contents correspond to ``TurtleBot``'s SBC (your Raspberry Pi or Intel® Joule™) which TurtleBot's main computer. You should never apply the following to your Remote PC (your desktop PC or laptop).
+.. WARNING:: The contents in this chapter corresponds to the SBC of ``TurtleBot``(Raspberry Pi 3 or Intel® Joule™) which will be the main computer of TurtleBot3. Do NOT apply this instruction to your Remote PC (your desktop PC or laptop).
 
-.. NOTE:: It takes about 2 hours to install the following ROS and TurtleBot3 related packages. This depends on your network environment.
+.. NOTE:: This instruction takes about 2 hours to install ROS and TurtleBot3 related packages. Elapsed time may vary depending on network environment.
 
 .. image:: _static/logo_ros.png
     :align: center
@@ -140,9 +140,9 @@ Install ROS and packages (Burger and Waffle)
 
 [``TurtleBot``] There are two ways to install `ROS`_. If you prefer manual installation, please take the second method.
 
-**First Method** : Install the `ROS`_ by using a simple installation script file.
+**First Method** : Install `ROS`_ by using a simple installation script file.
 
-.. TIP:: The terminal application can be searched with the Ubuntu search icon on top left corner of screen. Shortcut key for terminal is Ctrl-Alt-T.
+.. TIP:: The terminal application can be found with the Ubuntu search icon on the top left corner of the screen. Shortcut key for terminal is Ctrl-Alt-T.
 
 .. code-block:: bash
 
@@ -150,11 +150,11 @@ Install ROS and packages (Burger and Waffle)
   sudo apt-get upgrade
   wget https://raw.githubusercontent.com/oroca/oroca-ros-pkg/kinetic/ros_install.sh && chmod 755 ./ros_install.sh && bash ./ros_install.sh catkin_ws kinetic
 
-**Second Method** : You can start from "`1.2 Setup your sources.list`_" and keep working on until "`1.7 Getting rosinstall`_" from below ROS installation instruction link.
+**Second Method** : You can start from "`1.2 Setup your sources.list`_" and keep following the instruction until "`1.7 Getting rosinstall`_" from below ROS installation instruction link.
 
 - http://wiki.ros.org/kinetic/Installation/Ubuntu
 
-.. NOTE:: In order to check which packages are installed, please follow this link. https://raw.githubusercontent.com/oroca/oroca-ros-pkg/kinetic/ros_install.sh
+.. NOTE:: In order to check which packages are installed, please check this link out. https://raw.githubusercontent.com/oroca/oroca-ros-pkg/kinetic/ros_install.sh
 
 [``TurtleBot``] The next step is to install dependent packages for the TurtleBot3 control.
 
@@ -170,12 +170,12 @@ Install ROS and packages (Burger and Waffle)
   git clone https://github.com/ROBOTIS-GIT/turtlebot3.git
   cd ~/catkin_ws && catkin_make
 
-If catkin_make is completed without any errors, the preparation for using TurtleBot3 will be finished.
+If catkin_make command is completed without any errors, the preparation for TurtleBot3 is done.
 
 USB settings (Burger and Waffle)
 --------------------------------
 
-[``TurtleBot``] The following allows the USB port to be used for the OpenCR board without root privileges.
+[``TurtleBot``] The following commands allow to use USB port for the OpenCR board without acquiring root permission.
 
 .. code-block:: bash
 
@@ -189,29 +189,29 @@ Network Configuration (Burger and Waffle)
 
 .. image:: _static/software/network_configuration.png
 
-ROS needs IP addresses to communicate between the TurtleBot and the remote PC.
+ROS requires IP addresses in order to communicate between TurtleBot3 and remote PC.
 
-[``TurtleBot``] Type the next to find out the IP address of your TurtleBot.
+[``TurtleBot``] Enter the below command on the terminal window of the SBC in TurtleBot3 to find out the IP address of your TurtleBot3.
 
 .. code-block:: bash
 
   ifconfig
 
-Rectangled text is the IP address of the ``TurtleBot``.
+Text strings in the rectangle is the IP address of the ``TurtleBot``.
 
 .. image:: _static/software/network_configuration4.png
 
-[``TurtleBot``] Do the following.
+[``TurtleBot``] Enter the following command.
 
 .. code-block:: bash
 
   gedit ~/.bashrc
 
-[``TurtleBot``] Change the `localhost` into the IP address shown as follows.
+[``TurtleBot``] Modify the address of `localhost` with the IP address acquired from the above terminal window.
 
 .. image:: _static/software/network_configuration5.png
 
-[``TurtleBot``] Then, source the bashrc
+[``TurtleBot``] Then, source the bashrc with below command.
 
 .. code-block:: bash
 

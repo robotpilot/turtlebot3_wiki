@@ -1,7 +1,7 @@
 Friends
 =======
 
-In the video, see how the TurtleBot3 can be assembled and reassembled, using some small parts. The waffle plate, a biggest part in the TurtleBot3 components that can make various size and shape of robot, is consisted of several size of holes, and needs few kind of volts and nuts to assembly.
+In the video, watch how TurtleBot3 can be assembled and reassembled with a few additional parts. The waffle plate, a biggest part in the TurtleBot3 components that can make various size and shape of robot, is consisted of several size of holes, and needs a few kind of volts and nuts to assembly.
 
 .. raw:: html
 
@@ -9,9 +9,9 @@ In the video, see how the TurtleBot3 can be assembled and reassembled, using som
 
 |
 
-From this idea, a lot of TurtleBot3 friends that have different characters can be built. Customize the construction more than listed as follows.
+With this extendible structure, handful of TurtleBot3 friends with various characteristics could be built. You can customize the structure to create something new other than the below examples.
 
-TurtleBot3 Friends List (2017.03.03)
+TurtleBot3 Friends List (as of 2017.03.03)
 
 - TurtleBot3 Friends: Car
 - TurtleBot3 Friends: OpenManipulator Chain
@@ -34,11 +34,11 @@ TurtleBot3 Friends List (2017.03.03)
 
 |
 
-Get sources and make friends! To do this, see ``Examples`` → ``turtlebot3`` → ``turtlebot3_friends``
+Get source codes and make friends! Go to ``Examples`` → ``turtlebot3`` → ``turtlebot3_friends``.
 
 .. image:: _static/friends/ide.png
 
-.. NOTE:: Any suggestions, any ideas, any applicants for this TurtleBot3 Friends Project is welcomed. We want to welcome our new TurtleBot3 Friends. If you have TurtleBot3 Friends who realized your new idea, please let us know. We will be introducing your robot to this wiki page. :)
+.. NOTE:: Any suggestions and ideas for TurtleBot3 Friends Project are always welcomed. Tell us about your creative TurtleBot3 Friend. We might introduce your friend to the world through this wiki page! :)
 
 :E-Mail: ost@robotis.com
 
@@ -173,7 +173,7 @@ TurtleBot3 Friends: Omni
 .. image:: _static/friends/friends_omni.png
 
 :``Type``: Omni wheel
-:``Features``: Omni wheels have additional discs around the circumference make it be drive laterally.
+:``Features``: Omni wheels have additional discs around the circumference make it laterally driveable.
 :``Components``: Three Dynamixel X 430 Series (All for driving), an OpenCR Board, a RC100 Remote Controller with BT410 master-slave Bluetooth modules, TurtleBot3 Chassis and Battery, 3D printed chassis.
 :``Hardware``: https://goo.gl/WB8u3r
 :``Software``: ``Examples`` → ``turtlebot3`` → ``turtlebot3_friends`` → ``turtlebot3_omni``
@@ -191,7 +191,7 @@ TurtleBot3 Friends: Mecanum
 .. image:: _static/friends/friends_mecanum.png
 
 :``Type``: Mecanum wheel
-:``Features``: Mecanum wheels have additional discs around the circumference let it be drive laterally.
+:``Features``: Mecanum wheels have additional discs around the circumference make it laterally driveable.
 :``Components``: Four Dynamixel X 430 Series (All for driving), an OpenCR Board, a RC100 Remote Controller with BT410 master-slave Bluetooth modules, TurtleBot3 Chassis and Battery, 3D printed chassis.
 :``Hardware``: https://goo.gl/Nz1VE0
 :``Software``: ``Examples`` → ``turtlebot3`` → ``turtlebot3_friends`` → ``turtlebot3_mechanum``
@@ -257,7 +257,7 @@ TurtleBot3 Friends: Carrier
 .. image:: _static/friends/friends_carrier.png
 
 :``Type``: 2 Wheel mobile based platform as service robot
-:``Features``: 4 Joints and 4 wheels will become a futuristic technology on transportation society by overcoming fuel-consuming mechanics.
+:``Features``: 2 wheeled mobile platform will serve whatever you wants.
 :``Components``: A TurtleBot3 Waffle, 6 supports for 4th layer, another 6 supports for 5th layer construction, extra Waffle Plates in each layers, customized 3D printed wheel and ball caster.
 :``Hardware``: https://goo.gl/5LKFxs
 :``Software``: ``Examples`` → ``turtlebot3`` → ``turtlebot3_waffle`` → ``turtlebot3_waffle``

@@ -6,15 +6,15 @@ Appendix #OpenCR
 Overview
 --------
 
-``OpenCR`` is a main controller board of the TurtleBot3. The OpenCR, or the Open-source Control module for ROS, is developed for the ROS embedded system, providing with full open-source hardware and software. Everything of the board, including Schematics, PCB Gerber, BOM, and the firmware source for the TurtleBot3 can be freely distributed under open-source licenses for the users and the ROS community.
+``OpenCR`` is a main controller board of the TurtleBot3. OpenCR; Open-source Control module for ROS, is developed for ROS embedded systems to provide completely open-source hardware and software. Everything about the board; Schematics, PCB Gerber, BOM and the firmware source code for the TurtleBot3 are free to distribute under open-source licenses for users and the ROS community.
 
-The STM32F7 series, which is a main chip inside the OpenCR board, has a very powerful ARM Cortex-M7 with floating point unit. The develop environment for the OpenCR is supported in the range from the Arduino IDE and Scratch for young students to the traditional firmware develop environment for the experts.
+The STM32F7 series is a main chip inside the OpenCR board which is based on a very powerful ARM Cortex-M7 with floating point unit. The development environment for OpenCR is wide open from Arduino IDE and Scratch for young students to traditional firmware development for the expert.
 
-The board provides a set of digital and analog input/output pins that can interface from pne circuit to another or the built-in IMU sensor. The board is featured by the communication interfaces, including USB, which communicates with the PC, and UART, SPI, I2C, CAN for other embedded device.
+OpenCR provides digital and analog input/output pins that can interface with extension board or various sensors. Also, OpenCR features various communication interfaces: USB for connecting to PC, UART, SPI, I2C, CAN for other embedded devices.
 
-To use a SBC, OpenCR board can give a best solution. It supports some power outputs: 12V, 5V, 3.3V for the SBCs and the sensors. It has also a hotswap feature in two external power inputs: the Battery and the SMPS.
+OpenCR can provide a best solution when using with a SBC. It supports 12V, 5V, 3.3V power outputs for SBCs and sensors. It also supports hot swap power inputs between battery and SMPS.
 
-Use this board to fill the imagined embedded control.
+OpenCR will be the best solution for implementing your embedded control design.
 
 
 .. raw:: html
@@ -87,9 +87,9 @@ Specification
 | Mass                     | 60g                                                                |
 +--------------------------+--------------------------------------------------------------------+
 
-* Hot-swap for switching from "shore power"(12V, 5A SMPS) to "mobile power"(battery): power board to support uninterruptible power supply (UPS) type of functionality.
+* Hot swap power switch between "shore power"(12V, 5A SMPS) and "mobile power"(battery) from OpenCR board enables UPS(Uninterrupted Power Supply) feature.
 
-User's guide
+User Guide
 ------------
 
 Run serial_node package
@@ -140,11 +140,11 @@ You can modify the downloaded source code and share it with your friends.
 Open Source Hardware
 --------------------
 
-All details of the OpenCR board that are necessary for the users who want to make it by themselves, including the Schematics, the PCB Gerber, the BOM and the Firmware source are fully opened under the open-source licenses for the user and the ROS community.
+If you want to manufacture your own OpenCR, you can download necessary files such as PCB Gerber, BOM. When the board is ready firmware source code can be burned into the MCU.
  
 - OpenCR Hardware: https://github.com/ROBOTIS-GIT/OpenCR-Hardware
 
-Detail wiki site
-----------------
+Wiki Site for More Information
+------------------------------
 
 - OpenCR Wiki: https://github.com/ROBOTIS-GIT/OpenCR/wiki

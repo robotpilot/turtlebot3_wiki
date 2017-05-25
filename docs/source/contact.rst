@@ -65,8 +65,8 @@ ABOUT OST (Open Source Team)
 :Supporter: JangHo Kim, Jinwook Kim, Woosik Yang, OROCA
 :Collaboration Team: OSRF, Intel, OROCA, Onshape, OSU
 
-We are an **Open Source Team** of ROBOTIS. With the open source hardware/software, our robot friends are hoping to enrich our lives. We mainly develop/support the Dynamixel SDK, OpenManipulator, OpenCM, OpenCR and OpenAutonomousCar.
-Our favorite platform is ROS! :) We are delighted to be in charge of developing TurtleBot3, the official reference platform for ROS, and in the future we will be the team that can support you to create your robot dreams.
+We are **Open Source Team** in ROBOTIS HQ. With open source hardwares and softwares, our robot friends are hoping to enrich our lives. We mainly develop and support Dynamixel SDK, OpenManipulator, OpenCM, OpenCR and OpenAutonomousCar.
+Our favorite platform is ROS! :) We are delighted to be in charge of developing TurtleBot3, the official reference platform for ROS, and in the future we will be the team that can support you to get closer to your robot dreams.
 
 :GutHub: https://github.com/ROBOTIS-GIT
 :E-Mail: ost@robotis.com

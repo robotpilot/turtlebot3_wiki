@@ -56,16 +56,16 @@ Gazebo (3D)
 
 .. TIP:: The terminal application can be found with the Ubuntu search icon on the top left corner of the screen. Shortcut key for terminal is Ctrl-Alt-T.
 
-.. WARNING:: If you are running Gazebo for the first time on your ``Remote PC``, it usually takes a bit longer.
+.. WARNING:: If you are running Gazebo for the first time on your ``Remote PC``, it takes a bit longer than usual.
 
-Before launching Gazebo simulation with TurtleBot3, ``TurtleBot3 model files`` should be copied into ``gazebo model folder``.
+Before launching Gazebo simulation with TurtleBot3, ``TurtleBot3 model files`` should be copied into ``gazebo model folder`` with below command.
 
 .. code-block:: bash
   
   mkdir -p ~/.gazebo/models/
   cp -r  ~/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/worlds/turtlebot3 ~/.gazebo/models/
 
-Set Turtlebot3 model. Select either burger or waffle for the model parameter in the below command.
+You should set Turtlebot3 model parameter. Select either burger or waffle for the model parameter in the below command.
 
 .. code-block:: bash
 
@@ -79,13 +79,8 @@ Below command will load the TurtleBot3 on the default Gazebo environment ``Turtl
 
 .. image:: _static/simulation/turtlebot3_empty_world.png
 
-The TurtleBot3 can be driven with a keyboard by launching teleoperation with below command.
-
-.. code-block:: bash
-
-  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
-
-``TurtleBot3 world`` is a map consists of simple objects that makes up the shape of TurtleBot3 symbol.
+If you wish to load more interesting map, please use below command instead of above command that loads an empty world.  
+``TurtleBot3 world`` is a map consists of simple objects that makes up the shape of TurtleBot3 symbol.  
   
 .. code-block:: bash
 
@@ -95,7 +90,13 @@ The TurtleBot3 can be driven with a keyboard by launching teleoperation with bel
 
 .. image:: _static/simulation/turtlebot3_world_waffle.png
 
-The TurtleBot3 can freely move in the TurtleBot3 world.
+In order to control TurtleBot3 with a keyboard, please launch teleoperation feature with below command in a new terminal window.
+
+.. code-block:: bash
+
+  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+
+In order to run TurtleBot3 simulation that autonomously navigates around the map, open a new terminal window and enter below command.
 
 .. code-block:: bash
 

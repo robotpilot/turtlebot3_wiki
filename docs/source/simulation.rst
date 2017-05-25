@@ -103,7 +103,7 @@ In order to run TurtleBot3 simulation that autonomously navigates around the map
   export TURTLEBOT3_MODEL=burger
   roslaunch turtlebot3_gazebo turtlebot3_simulation.launch
 
-RViz shows published topics when simulation is launched.
+RViz shows published topics while simulation is running. You can launch RViz in a new terminal window by entering below command.
 
 .. code-block:: bash
 

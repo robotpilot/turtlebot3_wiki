@@ -36,4 +36,6 @@ TurtleBot3 Official Wiki
 
 .. raw:: html
 
-Except where otherwise noted, these design documents are licensed under  <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+Except where otherwise noted, these design documents are licensed under `Creative Commons Attribution 4.0 International License`_.
+
+.. _Creative Commons Attribution 4.0 International License: http://creativecommons.org/licenses/by/4.0/

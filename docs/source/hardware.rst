@@ -1,3 +1,5 @@
+.. _chapter_hardware_setup:
+
 Hardware Setup
 ==============
 

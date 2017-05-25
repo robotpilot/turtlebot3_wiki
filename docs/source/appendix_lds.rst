@@ -1,3 +1,5 @@
+.. _appendix_lds:
+
 Appendix #LDS
 ==============
 

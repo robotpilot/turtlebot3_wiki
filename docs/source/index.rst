@@ -1,3 +1,5 @@
+.. _chapter_index:
+
 TurtleBot3 Official Wiki
 ========================
 

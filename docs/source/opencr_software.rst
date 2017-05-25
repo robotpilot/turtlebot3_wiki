@@ -1,3 +1,5 @@
+.. _chapter_opencr_software_setup:
+
 OpenCR Software Setup
 =====================
 
@@ -6,7 +8,7 @@ OpenCR Software Setup
 
 .. WARNING:: The contents in this chapter corresponds to the ``Remote PC`` (your desktop or laptop PC) which will control TurtleBot3. Do NOT apply this instruction to your TurtleBot3.
 
-.. NOTE:: The OpenCR board is pre-loaded with the software needed to run your specific TurtleBot3 model(Burger or Waffle). Refer to the information below only if you want to modify the existing software or write new software for the OpenCR. 
+.. NOTE:: The OpenCR board is pre-loaded with the software needed to run your specific TurtleBot3 model(Burger or Waffle). Refer to the information below only if you want to modify the existing software or write new software for the OpenCR.
 
 .. NOTE:: This instruction was tested on ``Ubuntu 16.04`` and ``ROS Kinetic Kame`` and OpenCR software setup can be done from Intel® Joule™.
 
@@ -170,7 +172,7 @@ OpenCR Firmware Settings for ROS
 Add TurtleBot3 Firmware to the OpenCR
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The OpenCR firmware (or the source) for ROS is to control the DYNAMIXEL and sensors in the ROS. The firmware is located in the OpenCR example which is downloaded by the board manager.  
+The OpenCR firmware (or the source) for ROS is to control the DYNAMIXEL and sensors in the ROS. The firmware is located in the OpenCR example which is downloaded by the board manager.
 If you have TurtleBot3 Burger,
 
 [``Remote PC``] Go to ``File`` → ``Examples`` → ``turtlebot3`` → ``turtlebot3_burger`` → ``turtlebot3_core``.

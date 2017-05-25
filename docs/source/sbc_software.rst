@@ -1,3 +1,5 @@
+.. _chapter_sbc_software_setup:
+
 SBC Software Setup
 ==================
 

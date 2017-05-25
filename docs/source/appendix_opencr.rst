@@ -1,3 +1,5 @@
+.. _appendix_opencr:
+
 Appendix #OpenCR
 ================
 
@@ -141,7 +143,7 @@ Open Source Hardware
 --------------------
 
 If you want to manufacture your own OpenCR, you can download necessary files such as PCB Gerber, BOM. When the board is ready firmware source code can be burned into the MCU.
- 
+
 - OpenCR Hardware: https://github.com/ROBOTIS-GIT/OpenCR-Hardware
 
 Wiki Site for More Information

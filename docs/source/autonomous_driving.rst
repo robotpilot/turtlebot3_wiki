@@ -1,3 +1,5 @@
+.. _chapter_autonomous_driving:
+
 Autonomous Driving
 ==================
 

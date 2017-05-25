@@ -1,3 +1,5 @@
+.. _chapter_contact_us:
+
 Contact US
 ==========
 

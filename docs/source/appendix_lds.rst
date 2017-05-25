@@ -6,7 +6,7 @@ Appendix #LDS
 Overview
 --------
 
-HLS-LFCD LDS is used for both models of the TurtleBot3. The LDS(Laser Distance Sensor) is a sensor which sends the data, gathered by the obstacle detection, to the host for the Simultaneous Localization and Mapping (SLAM) technique.
+HLS-LFCD LDS is used for both TurtleBot3 Burger and TurtleBot3 Waffle. The LDS(LASER Distance Sensor) is a sensor which collects a set of distance data and send them to the host for the Simultaneous Localization and Mapping (SLAM) technique.
 
 .. raw:: html
 
@@ -14,11 +14,11 @@ HLS-LFCD LDS is used for both models of the TurtleBot3. The LDS(Laser Distance S
 
 |
 
-Specification
--------------
+Specifications
+--------------
 
-Basic performance specification
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+General Specifications
+~~~~~~~~~~~~~~~~~~~~~~
 
 +--------------------------+--------------------------------------------------------------------+
 | Items                    | Specifications                                                     |
@@ -27,7 +27,7 @@ Basic performance specification
 +--------------------------+--------------------------------------------------------------------+
 | Light source             | Semiconductor Laser Diode(λ=785nm)                                 |
 +--------------------------+--------------------------------------------------------------------+
-| Laser safety             | IEC60825-1 Class 1                                                 |
+| LASER safety             | IEC60825-1 Class 1                                                 |
 +--------------------------+--------------------------------------------------------------------+
 | Current consumption      | 400mA or less (Rush current 1A)                                    |
 +--------------------------+--------------------------------------------------------------------+
@@ -44,8 +44,8 @@ Basic performance specification
 | Mass                     | Under 125g                                                         |
 +--------------------------+--------------------------------------------------------------------+
 
-Measurement performance specification
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Measurement Performance Specifications
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 +------------------------------------+---------------+
 | Items                              | Specifications|
@@ -67,18 +67,18 @@ Measurement performance specification
 | Angular Resolution                 | 1°            |
 +------------------------------------+---------------+
 
-Detail specification document
+Detail Specification Document
 -----------------------------
 
-The following includes the contents, like a basic performance, measurement performance, mechanism layout, optical path, data information, pin description, commands.
+The following link contains information about basic performance, measurement performance, mechanism layout, optical path, data information, pin description and commands.
 
-here is the detail specification document :download:`pdf <_static/docs/LDS_Basic_Specification.pdf>`
+Here is the detail specification document :download:`pdf <_static/docs/LDS_Basic_Specification.pdf>`
 
 
-LDS for the TurtleBot3
-----------------------
+LDS for TurtleBot3
+------------------
 
-The HLS-LFCD LDS is used for the TurtleBot3 Burger and TurtleBot3 Waffle.
+The HLS-LFCD LDS is used for both TurtleBot3 Burger and TurtleBot3 Waffle.
 
 .. image:: _static/hardware/turtlebot3_models.png
 
@@ -101,10 +101,10 @@ ROS Gmapping and Cartographer SLAM demo using TurtleBot3 and the HLS-LFCD LDS.
 
 |
 
-User's guide
-------------
+User guide
+----------
 
-We are offering the `ROS package for LSD`_. The hls_lfcd_lds_driver package is a driver for "HLS(Hitachi-LG Sensor) LFCD LDS(Laser Distance Sensor)".
+We are offering `ROS package for LSD`_. The hls_lfcd_lds_driver package provides a driver for "HLS(Hitachi-LG Sensor) LFCD LDS(Laser Distance Sensor)".
 
 Installation
 ~~~~~~~~~~~~
@@ -113,21 +113,21 @@ Installation
 
   sudo apt-get install ros-kinetic-hls-lfcd-lds-driver
 
-Setting the permission for the HLS-LFCD LDS
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Set Permission for HLS-LFCD LDS
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. code-block:: bash
 
   sudo chmod a+rw /dev/ttyUSB0
 
-Run hlds_laser_publisher node
+Run hlds_laser_publisher Node
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. code-block:: bash
 
   roslaunch hls_lfcd_lds_driver hlds_laser.launch
 
-Run hlds_laser_publisher node with RViz
+Run hlds_laser_publisher Node with RViz
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. code-block:: bash

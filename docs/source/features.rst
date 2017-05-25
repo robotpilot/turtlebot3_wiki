@@ -3,7 +3,7 @@
 Features
 ========
 
-.. image:: _static/hardware/turtlebot3_burger_components.png
+.. image:: _static/features/features_with_icons.png
 
 WORLD’S MOST POPULAR ROS PLATFORM
 ---------------------------------

@@ -13,20 +13,20 @@ In the video, watch how TurtleBot3 can be assembled and reassembled with a few a
 
 With this extendible structure, handful of TurtleBot3 friends with various characteristics could be built. You can customize the structure to create something new other than the below examples.
 
-TurtleBot3 Friends List (as of 2017.03.03)
+TurtleBot3 Friends List
 
-- TurtleBot3 Friends: Car
-- TurtleBot3 Friends: OpenManipulator Chain
-- TurtleBot3 Friends: Segway
-- TurtleBot3 Friends: Conveyor
-- TurtleBot3 Friends: Monster
-- TurtleBot3 Friends: Tank
-- TurtleBot3 Friends: Omni
-- TurtleBot3 Friends: Mecanum
-- TurtleBot3 Friends: Bike
-- TurtleBot3 Friends: Road Train
-- TurtleBot3 Friends: Real TurtleBot
-- TurtleBot3 Friends: Carrier
+- :ref:`TurtleBot3 Friends: Car<section_car>`
+- :ref:`TurtleBot3 Friends: OpenManipulator Chain<section_openmanipulator_chain>`
+- :ref:`TurtleBot3 Friends: Segway<section_segway>`
+- :ref:`TurtleBot3 Friends: Conveyor<section_conveyor>`
+- :ref:`TurtleBot3 Friends: Monster<section_monster>`
+- :ref:`TurtleBot3 Friends: Tank<section_tank>`
+- :ref:`TurtleBot3 Friends: Omni<section_omni>`
+- :ref:`TurtleBot3 Friends: Mecanum<section_mecanum>`
+- :ref:`TurtleBot3 Friends: Bike<section_bike>`
+- :ref:`TurtleBot3 Friends: Road Train<section_road_train>`
+- :ref:`TurtleBot3 Friends: Real TurtleBot<section_real_turtleBot>`
+- :ref:`TurtleBot3 Friends: Carrier<section_carrier>`
 
 .. image:: _static/friends/All_friends.jpg
 
@@ -43,6 +43,8 @@ Get source codes and make friends! Go to ``Examples`` → ``turtlebot3`` → ``t
 .. NOTE:: Any suggestions and ideas for TurtleBot3 Friends Project are always welcomed. Tell us about your creative TurtleBot3 Friend. We might introduce your friend to the world through this wiki page! :)
 
 :E-Mail: ost@robotis.com
+
+.. _section_car:
 
 TurtleBot3 Friends: Car
 ------------------------
@@ -67,6 +69,8 @@ TurtleBot3 Friends: Car
   <iframe width="640" height="360" src="https://www.youtube.com/embed/1V33iEu4ylw" frameborder="0" allowfullscreen></iframe>
 
 |
+
+.. _section_openmanipulator_chain:
 
 TurtleBot3 Friends: OpenManipulator Chain
 -----------------------------------------
@@ -93,6 +97,8 @@ TurtleBot3 Friends: OpenManipulator Chain
 
 |
 
+.. _section_segway:
+
 TurtleBot3 Friends: Segway
 --------------------------
 
@@ -110,6 +116,8 @@ TurtleBot3 Friends: Segway
   <iframe width="640" height="360" src="https://www.youtube.com/embed/VAY-0xBOE2g" frameborder="0" allowfullscreen></iframe>
 
 |
+
+.. _section_conveyor:
 
 TurtleBot3 Friends: Conveyor
 ----------------------------
@@ -149,6 +157,8 @@ TurtleBot3 Friends: Monster
 
 |
 
+.. _section_tank:
+
 TurtleBot3 Friends: Tank
 ------------------------
 
@@ -187,6 +197,8 @@ TurtleBot3 Friends: Omni
 
 |
 
+.. _section_mecanum:
+
 TurtleBot3 Friends: Mecanum
 ---------------------------
 
@@ -199,6 +211,8 @@ TurtleBot3 Friends: Mecanum
 :``Software``: ``Examples`` → ``turtlebot3`` → ``turtlebot3_friends`` → ``turtlebot3_mechanum``
 :``Video``: See in the video :ref:`Friends-Omni<omni>` above.
 
+.. _section_bike:
+
 TurtleBot3 Friends: Bike
 ------------------------
 
@@ -210,6 +224,8 @@ TurtleBot3 Friends: Bike
 :``Hardware``: https://goo.gl/9UuCJn
 :``Software``: ``Examples`` → ``turtlebot3`` → ``turtlebot3_friends`` → ``turtlebot3_bike``
 :``Video``: See in the videos :ref:`Friends-Auto<section_auto>` and :ref:`Friends-Monster<section_monster>` above.
+
+.. _section_road_train:
 
 TurtleBot3 Friends: Road Train
 ------------------------------
@@ -228,6 +244,8 @@ TurtleBot3 Friends: Road Train
   <iframe width="640" height="360" src="https://www.youtube.com/embed/uhkq1w4YoEE" frameborder="0" allowfullscreen></iframe>
 
 |
+
+.. _section_real_turtlebot:
 
 TurtleBot3 Friends: Real TurtleBot
 ----------------------------------
@@ -252,6 +270,8 @@ TurtleBot3 Friends: Real TurtleBot
   <iframe width="640" height="360" src="https://www.youtube.com/embed/vort-z9HDlU" frameborder="0" allowfullscreen></iframe>
 
 |
+
+.. _section_carrier:
 
 TurtleBot3 Friends: Carrier
 ----------------------------

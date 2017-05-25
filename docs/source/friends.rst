@@ -13,7 +13,7 @@ In the video, watch how TurtleBot3 can be assembled and reassembled with a few a
 
 With this extendible structure, handful of TurtleBot3 friends with various characteristics could be built. You can customize the structure to create something new other than the below examples.
 
-TurtleBot3 Friends List
+TurtleBot3 Friends List:
 
 - :ref:`TurtleBot3 Friends: Car<section_car>`
 - :ref:`TurtleBot3 Friends: OpenManipulator Chain<section_openmanipulator_chain>`

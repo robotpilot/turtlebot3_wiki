@@ -8,9 +8,9 @@ Hardware Setup
 Main Components
 ---------------
 
-.. image:: _static/hardware/turtlebot3_main_components_burger.png
+.. image:: _static/hardware/turtlebot3_burger_components.png
 
-.. image:: _static/hardware/turtlebot3_main_components_waffle.png
+.. image:: _static/hardware/turtlebot3_waffle_components.png
 
 Part List
 ---------

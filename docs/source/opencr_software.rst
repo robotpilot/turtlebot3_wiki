@@ -153,6 +153,10 @@ Entering the DFU Mode
 
 .. image:: _static/preparation/opencr_button_for_dfu.png
 
+[``Remote PC``] If you successfully entered to DFU mode, you will be able to find ``STMicroelectronics STM Device in DFU Mode`` text string when *lsusb* is entered in the terminal.
+
+.. image:: _static/preparation/ide10.png
+
 Download the Bootloader
 .......................
 

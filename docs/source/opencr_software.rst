@@ -33,6 +33,8 @@ USB Port Settings
   sudo udevadm control --reload-rules
   sudo udevadm trigger
 
+.. image:: _static/preparation/7_1_1_usb_port_setting.png
+
 Compiler Settings
 ~~~~~~~~~~~~~~~~~
 
@@ -41,6 +43,8 @@ Compiler Settings
 .. code-block:: bash
 
   sudo apt-get install libncurses5-dev:i386
+  
+.. image:: _static/preparation/7_1_2_compiler_settings.png
 
 
 Install Arduino IDE
@@ -50,7 +54,7 @@ Install Arduino IDE
 
 https://www.arduino.cc/en/Main/Software
 
-[``Remote PC``] Extract downloaded file to desired folder and execute the installation file from the terminal. The below example uses *tools* folder in the root directory (``~/``). This folder will act as Arduino IDE folder.
+[``Remote PC``] Extract downloaded file to desired folder and execute the install file in the folder from the terminal. The below example uses *tools* folder in the root directory (``~/``). This folder will act as Arduino IDE folder.
 
 .. code-block:: bash
 

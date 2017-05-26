@@ -132,7 +132,7 @@ In this section, the Alternative Ubuntu Desktop 16.04 LTS will be installed on I
 Install ROS and Packages (Burger and Waffle)
 ------------------------------------------------
 
-.. WARNING:: The contents in this chapter corresponds to the SBC of TurtleBot3 (Raspberry Pi 3 or Intel® Joule™) which will be the main computer of TurtleBot3. Do **NOT** apply this instruction to your Remote PC (your desktop PC or laptop).
+.. WARNING:: The contents in this chapter corresponds to the SBC of ``TurtleBot3`` (Raspberry Pi 3 or Intel® Joule™) which will be the main computer of TurtleBot3. Do **NOT** apply this instruction to your Remote PC (your desktop PC or laptop).
 
 .. NOTE:: This instruction takes about 2 hours to install ROS and TurtleBot3 related packages. Elapsed time may vary depend on network environment.
 

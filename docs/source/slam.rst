@@ -5,7 +5,7 @@ SLAM
 
 .. NOTE:: This instruction was tested on ``Ubuntu 16.04`` and ``ROS Kinetic Kame``.
 
-.. WARNING:: Make sure to run the :ref:`[Bringup]<chapter_bringup>` instruction before SLAM.
+.. WARNING:: Make sure to run the :ref:`[Bringup]<chapter_bringup>` instruction before performing SLAM.
 
 .. TIP:: It is recommended to use a joystick pad instead of the keyboard for easier control.
 

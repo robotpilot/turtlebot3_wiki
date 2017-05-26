@@ -36,7 +36,26 @@ TurtleBot Follower Demo
   sudo apt-get install python -pip
   sudo pip install -U scikit-learn numpy scipy
   sudo pip install --upgrade pip
+  
+[``TurtleBot``] Launch the Turtlebot3_bringup
 
+.. code-block:: bash
+
+  roslaunch turtlebot3_bringup turtlebot3_robot.launch
+  
+[``Remote PC``] Launch turtlebot_follow_filter with below command.
+  
+.. code-block:: bash
+
+  roslaunch turtlebot_follow_filter turtlebot_follow_filter.launch
+    
+[``Remote PC``] Launch turtlebot3_follower with below command.
+
+.. code-block:: bash
+
+  cd turtlebot3_applications/turtlebot3_follower/src
+  rosrun turtlebot3_follower follower.py
+  
 TurtleBot Panorama Demo Using Raspberry Pi Camera Module
 --------------------------------------------------------
 

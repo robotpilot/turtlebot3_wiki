@@ -160,11 +160,11 @@ Download the Bootloader
 
 .. image:: _static/preparation/ide9.png
 
-[``Remote PC``] When download is completed, press ``Reset`` button again.
-
 [``Remote PC``] If bootloader burning is successfully completed, you will be able to find ``STMicroelectronics STM Device in DFU Mode`` text string when *lsusb* is entered in the terminal.
 
 .. image:: _static/preparation/ide10.png
+
+[``Remote PC``] When download is completed, press ``Reset`` button again.
 
 OpenCR Firmware Settings for ROS
 --------------------------------

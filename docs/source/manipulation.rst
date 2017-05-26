@@ -87,11 +87,11 @@ In order to run Open-Manipulator simulation with MoveIt!, open a new terminal wi
 
 .. image:: _static/manipulation/open_manipulator_moveit_real_1.png
 
-.. image:: _static/manipulation/open_manipulator_moveit_real_2.png
+.. image:: _static/manipulation/open_manipulator_moveit_real_2.jpg
 
 .. image:: _static/manipulation/open_manipulator_moveit_real_3.png
 
-.. image:: _static/manipulation/open_manipulator_moveit_real_4.png
+.. image:: _static/manipulation/open_manipulator_moveit_real_4.jpg
 
 TurtleBot3 Waffle with Open-Manipulator
 -----------

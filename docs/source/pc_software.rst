@@ -29,6 +29,7 @@ Install ROS in the remote PC
     :target: http://wiki.ros.org
 
 [``Remote PC``] There are two ways to install `ROS`_. If you prefer manual installation, please take the second method.
+In order to develop source code from the remote PC, please configure ROS environment after completing ROS installation. 
 
 First Method
 ~~~~~~~~~~~~
@@ -52,6 +53,8 @@ You can start from "`1.2 Setup your sources.list`_" and keep following the instr
 
 .. NOTE:: In order to check which packages are installed, please check this link out. https://raw.githubusercontent.com/oroca/oroca-ros-pkg/kinetic/ros_install.sh
 
+ROS Environment Configuration
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 If you are going to modify or develop source code from the remote PC, you'll have to configure ROS environment. Simple instructions are described in the below link and it will take a couple minutes.
 
 - http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment

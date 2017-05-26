@@ -48,13 +48,13 @@ Install Linux on TurtleBot3 Burger (Raspberry Pi 3)
 Install Linux on TurtleBot3 Waffle (Intel® Joule™)
 -------------------------------------------------------
 
-In this section, an alternative Ubuntu Desktop 16.04 LTS will be installed on Intel® Joule™.
+In this section, the Alternative Ubuntu Desktop 16.04 LTS will be installed on Intel® Joule™.
 
 [``Remote PC``] Download Ubuntu image ``Alternative Ubuntu 16.04 for Intel® Joule™`` from the below link.
 
 - http://people.canonical.com/~platform/snappy/tuchuck/desktop-final/tuchuck-xenial-desktop-iso-20170317-0.iso
 
-[``Remote PC``] In order to make a bootable installation USB drive, you can use `Alternative install(Ubuntu Desktop 16.04 LTS)`_ section from the below link.
+[``Remote PC``] In order to make a bootable installation USB drive, please follow the `Alternative install(Ubuntu Desktop 16.04 LTS)`_ section from the below link.
 
 - https://developer.ubuntu.com/core/get-started/intel-joule
 
@@ -84,7 +84,7 @@ In this section, an alternative Ubuntu Desktop 16.04 LTS will be installed on In
 
 .. image:: _static/preparation/j6.JPG
 
-[``Intel® Joule™``] Every ``Intel® Joule™`` has two different disk drives: 16GB micro SD Card and 16GB eMMC. In this instruction, it is highly recommended to install ``Alternarive Ubuntu for Joule`` on the ``16GB eMMC``. Select ``MMC/SD card #2 (mmcblk1) - 15.7 GB MMC 016G32`` then ``continue``.
+[``Intel® Joule™``] ``Intel® Joule™`` has two different disk drives: 16GB micro SD Card and 16GB eMMC. In this instruction, it is highly recommended to install ``Alternarive Ubuntu for Joule`` on the ``16GB eMMC``. Select ``MMC/SD card #2 (mmcblk1) - 15.7 GB MMC 016G32`` then ``continue``.
 
 .. image:: _static/preparation/j7.JPG
 
@@ -132,9 +132,9 @@ In this section, an alternative Ubuntu Desktop 16.04 LTS will be installed on In
 Install ROS and Packages (Burger and Waffle)
 ------------------------------------------------
 
-.. WARNING:: The contents in this chapter corresponds to the SBC of ``TurtleBot``(Raspberry Pi 3 or Intel® Joule™) which will be the main computer of TurtleBot3. Do NOT apply this instruction to your Remote PC (your desktop PC or laptop).
+.. WARNING:: The contents in this chapter corresponds to the SBC of TurtleBot3 (Raspberry Pi 3 or Intel® Joule™) which will be the main computer of TurtleBot3. Do **NOT** apply this instruction to your Remote PC (your desktop PC or laptop).
 
-.. NOTE:: This instruction takes about 2 hours to install ROS and TurtleBot3 related packages. Elapsed time may vary depending on network environment.
+.. NOTE:: This instruction takes about 2 hours to install ROS and TurtleBot3 related packages. Elapsed time may vary depend on network environment.
 
 .. image:: _static/logo_ros.png
     :align: center
@@ -160,7 +160,7 @@ Second Method
 
 - http://wiki.ros.org/kinetic/Installation/Ubuntu
 
-.. NOTE:: In order to check which packages are installed, please check this link out. https://raw.githubusercontent.com/oroca/oroca-ros-pkg/kinetic/ros_install.sh
+.. NOTE:: In order to see which packages are installed, please check this link out. https://raw.githubusercontent.com/oroca/oroca-ros-pkg/kinetic/ros_install.sh
 
 Install Dependent Packages
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -180,10 +180,10 @@ Install Dependent Packages
 
 If catkin_make command is completed without any errors, the preparation for TurtleBot3 is done.
 
-USB settings (Burger and Waffle)
+USB Settings (Burger and Waffle)
 --------------------------------
 
-[``TurtleBot``] The following commands allow to use USB port for the OpenCR board without acquiring root permission.
+[``TurtleBot``] The following commands allow to use USB port for OpenCR without acquiring root permission.
 
 .. code-block:: bash
 
@@ -199,13 +199,13 @@ Network Configuration (Burger and Waffle)
 
 ROS requires IP addresses in order to communicate between TurtleBot3 and remote PC.
 
-[``TurtleBot``] Enter the below command on the terminal window of the SBC in TurtleBot3 to find out the IP address of your TurtleBot3.
+[``TurtleBot``] Enter the below command on the terminal window of the SBC in TurtleBot3 to find out the IP address of TurtleBot3.
 
 .. code-block:: bash
 
   ifconfig
 
-Text strings in the rectangle is the IP address of the ``TurtleBot``.
+Texts in the rectangle is the IP address of the ``TurtleBot``.
 
 .. image:: _static/software/network_configuration4.png
 
@@ -215,7 +215,7 @@ Text strings in the rectangle is the IP address of the ``TurtleBot``.
 
   gedit ~/.bashrc
 
-[``TurtleBot``] Modify the address of `localhost` with the IP address acquired from the above terminal window.
+[``TurtleBot``] Replace the word `localhost` in the rectangle with the IP address acquired from the above terminal window.
 
 .. image:: _static/software/network_configuration5.png
 

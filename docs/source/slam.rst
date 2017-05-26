@@ -5,13 +5,13 @@ SLAM
 
 .. NOTE:: This instruction was tested on ``Ubuntu 16.04`` and ``ROS Kinetic Kame``.
 
-.. WARNING:: Make sure to carry on the :ref:`[Bringup]<chapter_bringup>` instruction before to start SLAM.
+.. WARNING:: Make sure to run the :ref:`[Bringup]<chapter_bringup>` instruction before SLAM.
 
 .. TIP:: It is recommended to use a joystick pad instead of the keyboard for easier control.
 
-The Simultaneous Localization and Mapping, or SLAM, is a technique to draw a map by estimating current location in the virtual space while building a map in the arbitrary space.
+The Simultaneous Localization and Mapping, or SLAM, is a technique to draw a map by estimating current location in an arbitrary space.
 
-The SLAM is the well-known feature of the TurtleBot from predecessors. The video here shows you how accurately the TurtleBot3 can draw a map with its compact and affordable platform.
+The SLAM is a well-known feature of TurtleBot from its predecessors. The video here shows you how accurately TurtleBot3 can draw a map with its compact and affordable platform.
 
 .. raw:: html
 
@@ -20,7 +20,7 @@ The SLAM is the well-known feature of the TurtleBot from predecessors. The video
 |
 
 :Date: 2016.11.29
-:Robot: TurtleBot3 Burger model
+:Robot: TurtleBot3 Burger
 :Sensor: Laser Distance Sensor
 :Packages: Gmapping / Cartographer
 :Place: ROBOTIS Labs & HQ, 15th-floor corridor
@@ -34,7 +34,7 @@ The SLAM is the well-known feature of the TurtleBot from predecessors. The video
 |
 
 :Date: 2017.04.20
-:Robot: TurtleBot3 Burger model and Waffle model
+:Robot: TurtleBot3 Burger and Waffle
 :Sensor: Laser Distance Sensor
 :Packages: Gmapping
 :Place: ROBOTIS HQ Education Room
@@ -46,7 +46,7 @@ Create a Map with Teleoperation
 
 .. TIP:: The terminal application can be found with the Ubuntu search icon on the top left corner of the screen. Shortcut key for terminal is Ctrl-Alt-T.
 
-[``Remote PC``] Open a terminal and execute the SLAM launch file.
+[``Remote PC``] Open a new terminal and launch the SLAM file.
 If you have TurtleBot3 Burger,
 
 .. code-block:: bash
@@ -77,7 +77,7 @@ If you have TurtleBot3 Waffle,
 Save the Map
 ------------
 
-[``Remote PC``] Open the terminal and run the map saver node.
+[``Remote PC``] Open a new terminal and run the map saver node.
 
 .. code-block:: bash
 

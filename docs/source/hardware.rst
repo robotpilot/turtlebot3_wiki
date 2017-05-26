@@ -15,7 +15,7 @@ Main Components
 Part List
 ---------
 
-The TurtleBot3 has two different models: the ``Burger`` and the ``Waffle``. The following list shows their components. The big differences between two models are the Motor, the SBC(Single Board Computer) and the Sensors.
+TurtleBot3 has two different models: ``Burger`` and ``Waffle``. The following list shows their components. The big differences between two models are the Motor, the SBC(Single Board Computer) and the Sensors.
 
 +---------------+--------------------------------+--------+---------+
 | The number of the parts of each model          | Burger | Waffle  |
@@ -112,15 +112,15 @@ The TurtleBot3 has two different models: the ``Burger`` and the ``Waffle``. The 
 Assembly Manual
 ---------------
 
-Every TurtleBots come unassembled in boxes. Follow the instructions to assemble the TurtleBot3.
+TurtleBots3 is delivered as unassembled parts in the boxes. Follow the instructions to assemble TurtleBot3.
 
-Burger Model
-~~~~~~~~~~~~
+TurtleBot3 Burger
+~~~~~~~~~~~~~~~~~
 
 :download: `Assembly manual for TurtleBot3 Burger`_
 
-Waffle Model
-~~~~~~~~~~~~
+TurtleBot3 Waffle
+~~~~~~~~~~~~~~~~~
 
 :download: `Assembly manual for TurtleBot3 Waffle`_
 
@@ -130,8 +130,8 @@ Assembly Video
 If it is difficult to assemble only the assembly manual, please refer to the following video.
 
 
-Burger Model
-~~~~~~~~~~~~
+TurtleBot3 Burger
+~~~~~~~~~~~~~~~~~
 
 .. raw:: html
 
@@ -139,8 +139,8 @@ Burger Model
 
 |
 
-Waffle Model
-~~~~~~~~~~~~
+TurtleBot3 Waffle
+~~~~~~~~~~~~~~~~~
 
 .. raw:: html
 
@@ -148,28 +148,29 @@ Waffle Model
 
 |
 
-Basic Operations
---------------------
+Basic Operation
+---------------
 
 .. image:: _static/hardware/opencr_models.png
 
-You can use the ``PUSH SW 1`` and ``PUSH SW 2`` buttons to see whether your robot has been properly assembled. This process tests the left and right Dynamixel and the OpenCR board.
+You can use ``PUSH SW 1`` and ``PUSH SW 2`` buttons to see whether your robot has been properly assembled. This process tests the left and right DYNAMIXELs and the OpenCR board.
 
-1. After assembling, connect the battery to the OpenCR board and turn on the power switch. You can see that the ``Power LED`` of OpenCR turns on.
-2. Place the robot on the floor. At this time, the safety distance should be 1 meter on each side.
-3. Press the ``PUSH SW 1`` to confirm that the robot moves 30 centimeters forward.
-#. Press the ``PUSH SW 2`` to confirm that the robot rotates 180 degrees in place.
+1. After assembling TurtleBot3, connect the battery to OpenCR and turn on the power switch. You can see that the ``Power LED`` of OpenCR turns on.
+2. Place the robot on the floor. For the test, safety radius of 1 meter (about 40 inches) is recommended.
+3. Press ``PUSH SW 1`` to command the robot to move 30 centimeters (about 12 inches) forward.
+#. Press ``PUSH SW 2`` to command the robot to rotate 180 degrees in place.
 
 Open Source Hardware
 --------------------
 
-The components of Turtlebot3 as a default are the following: the Chassis, the Motors, the Wheels, the OpenCR board, the Computer, the Sensor, the Battery. The chassis are the Waffle plates, the Board support, the Ball caster, etc. The big feature of the chassis is in the Waffle plate, which is the biggest in all TurtleBot3 parts, but is smaller than the hand. This plate will be provided as an injection molded, and it achieves the low cost, but the CAD data for 3D printing is also available. The Turtlebot3 Burger is a Two-wheeled differential drive type platform, but is able to be structurally and mechanically customized in many ways: the Cars, the Bikes, the Trailers and so on.
+Core components of Turtlebot3 are the followings: Chassis, Motors, Wheels, OpenCR, SBC Computer, Sensor and Battery. The chassis are Waffle Plates that holds other components. The Waffle Plate plays an important role as a chassis although its size is as small as your palm. Waffle plate is manufactured with injection mold method to lower the manufacturing cost. However, the CAD data of waffle plate for 3D printing is also available via `Onshape`_. Turtlebot3 Burger is a Two-wheeled differential drive type platform, but it is customizable structurally and mechanically in many ways: Cars, Bikes, Trailers and so on.
 
-The CAD data is released to the Onshape, which is a full-cloud 3D CAD editor. Get access through a web browser by using the computer or even by the portable devices. Here allows the works of drawing, assemblying with the co-workers.
+The CAD data is released to the `Onshape`_, which is a full-cloud 3D CAD editor. Get access through a web browser from your PC or from portable devices. OnShape allows drawing and assemblying parts with co-workers.
 
-- TurtleBot3 Burger Model: https://goo.gl/n3bGNr
-- TurtleBot3 Waffle Model: https://goo.gl/wCDvVI
+- TurtleBot3 Burger 3D Model: https://goo.gl/n3bGNr
+- TurtleBot3 Waffle 3D Model: https://goo.gl/wCDvVI
 
 
 .. _Assembly manual for TurtleBot3 Burger: https://drive.google.com/file/d/0B5tlMnyFIdLYWDRfRjRLUHduRDA/view?usp=sharing
 .. _Assembly manual for TurtleBot3 Waffle: https://drive.google.com/file/d/0B5tlMnyFIdLYd3VHRDBKM2xsY2M/view?usp=sharing
+.. _Onshape: https://cad.onshape.com/documents?filter=recently-opened&column=modifiedAt&order=desc&viewMode=0&q=turtlebot3

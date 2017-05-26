@@ -5,9 +5,9 @@ Autonomous Driving
 
 .. NOTE:: This instruction was tested on ``Ubuntu 16.04`` and ``ROS Kinetic Kame``.
 
-We are going to start the TurtleBot3 Auto project for Autonomous Driving with TurtleBot3.
+We are going to start TurtleBot3 Auto project for Autonomous Driving with TurtleBot3.
 
-The video shows that the TurtleBot3 itself gets its eye by attaching a $40 Raspberry Pi Camera, and uses the open source from MIT DuckieTown engineering to tracking the lane.
+In the video, TurtleBot3 gets its eye by attaching a $40 Raspberry Pi Camera and adopts open source from MIT DuckieTown engineering to track the lane.
 
 .. raw:: html
 

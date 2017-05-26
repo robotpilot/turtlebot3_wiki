@@ -27,7 +27,15 @@ In order to implement these demos, you have to install the turtlebot3_applicatio
 TurtleBot Follower Demo
 -----------------------
 
-(TODO)
+.. NOTE:: The turtlebot3_follower demo uses scikit-learn in python. So follower demo requires to install python.
+
+[``Remote PC``] Launch scikit-learn
+
+.. code-block:: bash
+
+  sudo apt-get install python -pip
+  sudo pip install -U scikit-learn numpy scipy
+  sudo pip install --upgrade pip
 
 TurtleBot Panorama Demo Using Raspberry Pi Camera Module
 --------------------------------------------------------

@@ -30,6 +30,7 @@ TurtleBot3 Official Wiki
    appendix_lds
    appendix_realsense
    appendix_opensource
+   license
    faq
    contact
 

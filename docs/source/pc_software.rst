@@ -10,7 +10,7 @@ PC Software Setup
 
 .. NOTE:: This instruction was tested on ``Ubuntu 16.04`` and ``ROS Kinetic Kame``.
 
-Install Ubuntu in the remote PC (Desktop or Laptop PC)
+Install Ubuntu on Remote PC (Desktop or Laptop PC)
 -----------------------------------------------------------
 
 [``Remote PC``] Download ``Ubuntu 16.04`` on the remote PC from the following link.
@@ -21,7 +21,7 @@ If you need more help for installing Ubuntu, check out the step-by-step guide fr
 
 - https://www.ubuntu.com/download/desktop/install-ubuntu-desktop
 
-Install ROS in the remote PC
+Install ROS on Remote PC
 --------------------------------
 
 .. image:: _static/logo_ros.png
@@ -53,16 +53,16 @@ You can start from "`1.2 Setup your sources.list`_" and keep following the instr
 
 .. NOTE:: In order to check which packages are installed, please check this link out. https://raw.githubusercontent.com/oroca/oroca-ros-pkg/kinetic/ros_install.sh
 
-ROS Environment Configuration
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Configure ROS Environment
+~~~~~~~~~~~~~~~~~~~~~~~~~
 If you are going to modify or develop source code from the remote PC, you'll have to configure ROS environment. Simple instructions are described in the below link and it will take a couple minutes.
 
 - http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment
 
 Install dependent packages
-------------------------------
+--------------------------
 
-[``Remote PC``] The next step is to install dependent packages for the TurtleBot3 control.
+[``Remote PC``] The next step is to install dependent packages for TurtleBot3 control.
 
 .. code-block:: bash
 

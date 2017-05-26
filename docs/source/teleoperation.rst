@@ -8,7 +8,7 @@ Teleoperation
 
 .. NOTE:: This instruction was tested on ``Ubuntu 16.04`` and ``ROS Kinetic Kame``.
 
-.. WARNING:: Make sure to run the :ref:`[Bringup]<chapter_bringup>` instruction before teleoperation.
+.. WARNING:: Make sure to run the :ref:`[Bringup]<chapter_bringup>` instruction before performing Teleoperation.
 
 .. WARNING:: Be careful when testing the robot on the table as the robot might fall.
 

@@ -3,7 +3,7 @@
 Friends
 =======
 
-In the video, watch how TurtleBot3 can be assembled and reassembled with a few additional parts. The waffle plate, a biggest part in the TurtleBot3 components that can make various size and shape of robot, is consisted of several size of holes, and needs a few kind of volts and nuts to assembly.
+In the video, watch how TurtleBot3 can be assembled and reassembled with a few additional parts. The waffle plate which is the biggest part among TurtleBot3 components can be assembled in various sizes and shapes, thanks to its diverse holes for bolts and nuts.
 
 .. raw:: html
 
@@ -11,7 +11,7 @@ In the video, watch how TurtleBot3 can be assembled and reassembled with a few a
 
 |
 
-With this extendible structure, handful of TurtleBot3 friends with various characteristics could be built. You can customize the structure to create something new other than the below examples.
+With this extendible component, handful of TurtleBot3 friends with various characteristics could be built. You can create a totally new robot that is never seen before.
 
 TurtleBot3 Friends List:
 
@@ -40,7 +40,7 @@ Get source codes and make friends! Go to ``Examples`` → ``turtlebot3`` → ``t
 
 .. image:: _static/friends/ide.png
 
-.. NOTE:: Any suggestions and ideas for TurtleBot3 Friends Project are always welcomed. Tell us about your creative TurtleBot3 Friend. We might introduce your friend to the world through this wiki page! :)
+.. NOTE:: Any suggestions and ideas for TurtleBot3 Friends Project are always welcomed. Tell us about your creative TurtleBot3 Friends. We can introduce your friend to the world through this wiki page! :)
 
 :E-Mail: ost@robotis.com
 

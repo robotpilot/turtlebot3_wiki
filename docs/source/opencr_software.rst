@@ -6,20 +6,20 @@ OpenCR Software Setup
 .. image:: _static/software/remote_pc_and_turtlebot.png
     :align: center
 
-.. WARNING:: The contents in this chapter corresponds to the ``Remote PC`` (your desktop or laptop PC) which will control TurtleBot3. Do NOT apply this instruction to your TurtleBot3.
+.. WARNING:: The contents in this chapter corresponds to the ``Remote PC`` (your desktop or laptop PC) which will control TurtleBot3. Do **NOT** apply this instruction to your TurtleBot3.
 
-.. NOTE:: The OpenCR board is pre-loaded with the software needed to run your specific TurtleBot3 model(Burger or Waffle). Refer to the information below only if you want to modify the existing software or write new software for the OpenCR.
+.. NOTE:: OpenCR is pre-loaded with the software needed to run your specific TurtleBot3 model(Burger or Waffle). Refer to the information below only if you want to modify the existing software or write new software for OpenCR.
 
 .. NOTE:: This instruction was tested on ``Ubuntu 16.04`` and ``ROS Kinetic Kame`` and OpenCR software setup can be done from Intel® Joule™.
 
-The OpenCR controls DYNAMIXELs with instructions from the SBC. To be able to control DYNAMIXELs, a specific firmware should be installed on the board. See the descriptions and configure the settings.
+OpenCR controls DYNAMIXELs with instructions from the SBC. To be able to control DYNAMIXELs, a specific firmware should be installed on the board. See the descriptions and configure the settings.
 
-ArduinoIDE settings for the OpenCR
+ArduinoIDE Settings for OpenCR
 ----------------------------------
 
-Following instructions will setup the OpenCR Arduino development environment on the ``Remote PC``.
+Following instructions will setup OpenCR Arduino development environment on the ``Remote PC``.
 
-USB port settings
+USB Port Settings
 ~~~~~~~~~~~~~~~~~
 
 .. TIP:: The terminal application can be found with the Ubuntu search icon on the top left corner of the screen. Shortcut key for terminal is Ctrl-Alt-T.
@@ -36,7 +36,7 @@ USB port settings
 Compiler Settings
 ~~~~~~~~~~~~~~~~~
 
-[``Remote PC``] The OpenCR libraries are designed for 32-bit platform, therefore, 64-bit PC requires 32-bit compiler for the ArduinoIDE.
+[``Remote PC``] OpenCR libraries are designed for 32-bit platform, therefore, 64-bit PC requires 32-bit compiler for Arduino IDE.
 
 .. code-block:: bash
 
@@ -46,18 +46,18 @@ Compiler Settings
 Install Arduino IDE
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-[``Remote PC``] Download the latest version of ``Arduino IDE`` from official arduino homepage and install the program. The OpenCR supports Arduino IDE ``1.6.12`` or later (OpenCR has also been tested with Arduino IDE ``1.8.1``.).
+[``Remote PC``] Download the latest version of ``Arduino IDE`` from official Arduino homepage and install the program. OpenCR supports Arduino IDE ``1.6.12`` or later (OpenCR has also been tested with Arduino IDE ``1.8.1``.).
 
 https://www.arduino.cc/en/Main/Software
 
-[``Remote PC``] Extract downloaded file to desired folder and execute the installation file from the terminal. The below example uses *tools* folder in the root directory (``~/``). This folder will act as the Arduino IDE folder.
+[``Remote PC``] Extract downloaded file to desired folder and execute the installation file from the terminal. The below example uses *tools* folder in the root directory (``~/``). This folder will act as Arduino IDE folder.
 
 .. code-block:: bash
 
   cd ~/tools/arduino-1.8.1
   ./install.sh
 
-[``Remote PC``] Open the environment file with below command.
+[``Remote PC``] Open the script file with below command.
 
 .. code-block:: bash
 
@@ -69,7 +69,7 @@ https://www.arduino.cc/en/Main/Software
 
   export PATH=$PATH:$HOME/tools/arduino-1.8.1
 
-[``Remote PC``] Last but not least `source` the ``bashrc`` file to apply changes.
+[``Remote PC``] Last but not least, `source` the ``bashrc`` file to apply changes.
 
 .. code-block:: bash
 
@@ -84,7 +84,7 @@ Run Arduino IDE
 
   arduino
 
-[``Remote PC``] If the program is installed and setup correctly, you'll be able to see GUI program as below.
+[``Remote PC``] If the program is installed and configured correctly, you'll be able to see GUI program as below.
 
 .. image:: _static/preparation/ide0.png
 
@@ -102,7 +102,7 @@ Preferences
 
 .. image:: _static/preparation/ide1.png
 
-Install OpenCR Package with Boards Manager
+Install OpenCR Package from Boards Manager
 .............................................
 
 [``Remote PC``] Go to ``Tools`` → ``Board`` → ``Boards Manager``.
@@ -117,18 +117,18 @@ Install OpenCR Package with Boards Manager
 
 .. image:: _static/preparation/ide4.png
 
-[``Remote PC``] See if ``OpenCR Board`` is now in the list of ``Tools`` → ``Board``. Select ``OpenCR Board`` to import the OpenCR Board source.
+[``Remote PC``] See if ``OpenCR Board`` is now in the list of ``Tools`` → ``Board``. Select ``OpenCR Board`` to import OpenCR Board source.
 
 .. image:: _static/preparation/ide5.png
 
 Port Setting
 ............
 
-[``Remote PC``] This section shows how to setup the USB port for program upload. The OpenCR should be connected to the PC with the USB port.
+[``Remote PC``] This section shows how to setup the USB port for program upload. OpenCR should be connected to the PC with the USB port.
  
 [``Remote PC``] Select ``Tools`` → ``Port`` → ``/dev/ttyACM0``.
 
-.. WARNING:: The last digit value `0` in the above string ``/dev/ttyACM0`` might be different depending on the USB connection environment.
+.. WARNING:: The last digit value `0` in the string ``/dev/ttyACM0`` might be different depend on the USB connection environment.
 
 .. image:: _static/preparation/ide6.png
 
@@ -137,7 +137,7 @@ Writing Bootloader (can be skipped)
 
 .. NOTE:: This section is not necessary until there is new updates in the OpenCR bootloader. Once the bootloader is burned on the board, IT DOESN'T NEED EXTRA BURNING.
 
-The STM32F7xx, which is used for the main MCU of the OpenCR board, supports DFU(Device Firmware Upgrade). This enables built-in bootloader of the MCU to boot with the DFU protocol by using USB, primarily for the bootloader initialization, the recovery mode and the bootloader update. The biggest advantage of using bootloader with USB is that JTAG equipment is not required. Therefore, writing the new firmware by using the DFU mode which is embedded in MCU will not require writing / debugging equipment such as STLink.
+The STM32F7xx, which is used for the main MCU of OpenCR, supports DFU(Device Firmware Upgrade). This enables built-in bootloader of the MCU to boot with the DFU protocol by using USB, primarily for the bootloader initialization, the recovery mode and the bootloader update. The biggest advantage of using bootloader with USB is that JTAG equipment is not required. Therefore, writing the new firmware by using the DFU mode which is embedded in the MCU will not require writing / debugging equipment such as STLink.
 
 Programmer Setting
 ..................
@@ -146,8 +146,8 @@ Programmer Setting
 
 .. image:: _static/preparation/ide7.png
 
-Enter the DFU mode
-...................
+Entering the DFU Mode
+.....................
 
 [``Remote PC``] Press ``Reset`` button while ``Boot`` button is pressed. This enables user to activate the DFU mode.
 
@@ -169,10 +169,10 @@ Download the Bootloader
 OpenCR Firmware Settings for ROS
 --------------------------------
 
-Add TurtleBot3 Firmware to the OpenCR
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Add TurtleBot3 Firmware to OpenCR
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The OpenCR firmware (or the source) for ROS is to control the DYNAMIXEL and sensors in the ROS. The firmware is located in the OpenCR example which is downloaded by the board manager.
+OpenCR firmware (or the source) for ROS is to control DYNAMIXEL and sensors in the ROS. The firmware is located in OpenCR example which is downloaded by the board manager.
 If you have TurtleBot3 Burger,
 
 [``Remote PC``] Go to ``File`` → ``Examples`` → ``turtlebot3`` → ``turtlebot3_burger`` → ``turtlebot3_core``.
@@ -183,7 +183,7 @@ If you have TurtleBot3 Waffle,
 
 .. image:: _static/opencr/o1.png
 
-[``Remote PC``] Click ``Upload`` button to write the firmware into the OpenCR.
+[``Remote PC``] Click ``Upload`` button to upload the firmware to OpenCR.
 
 .. image:: _static/opencr/o2.png
 
@@ -191,6 +191,6 @@ If you have TurtleBot3 Waffle,
 
 .. NOTE:: Go to ``Tools`` → ``Port`` to check if the port is set properly.
 
-[``Remote PC``] When firmware writing is completed, ``jump_to_fw`` text string will be printed on the screen.
+[``Remote PC``] When firmware upload is completed, ``jump_to_fw`` text string will be printed on the screen.
 
 .. _ROS: http://wiki.ros.org

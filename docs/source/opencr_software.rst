@@ -189,7 +189,7 @@ If you have TurtleBot3 Waffle,
 
 .. image:: _static/opencr/o3.png
 
-.. NOTE:: Go to ``Tools`` → ``Port`` to check if the port is set properly.
+.. NOTE:: If error occurs while uploading firmware, go to ``Tools`` → ``Port`` and check if correct port is selected. Press ``Reset`` button on the OpenCR and try to upload the firmware again.
 
 [``Remote PC``] When firmware upload is completed, ``jump_to_fw`` text string will be printed on the screen.
 

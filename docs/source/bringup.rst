@@ -8,14 +8,14 @@ Bringup
 
 .. NOTE:: This instruction was tested on ``Ubuntu 16.04`` and ``ROS Kinetic Kame``.
 
-.. WARNING:: This instruction is intended to be run on the remote PC. If you are following the instruction on ``TurtleBot``, please do NOT run *roscore* command.
+.. WARNING:: This instruction is intended to be run on the remote PC. If you are following the instruction on ``TurtleBot``, please do **NOT** run *roscore* command.
 
-.. WARNING:: Check if IP address on each device is set correctly.
+.. WARNING:: Make sure that IP address on each device is set correctly.
 
 .. WARNING:: When the battery voltage is lower than 11V, the buzzer alarm will continuously sound and actuators will be disabled. The battery must be recharged when the buzzer alarm sounds.
 
 
-Bringup the TurtleBot3
+Bringup TurtleBot3
 ----------------------
 
 .. TIP:: The terminal application can be found with the Ubuntu search icon on the top left corner of the screen. Shortcut key for terminal is Ctrl-Alt-T.
@@ -45,9 +45,9 @@ TurtleBot3 Burger
     roslaunch turtlebot3_bringup turtlebot3_core.launch
 
 .. NOTE::
-  If `lost sync with device` error message is displayed on the terminal window, the sensor device of the TurtleBot3 might not be securely connected.
+  If `lost sync with device` error message is displayed on the terminal window, the sensor device of TurtleBot3 might not be securely connected.
 
-[``Remote PC``] Run rviz
+[``Remote PC``] Run RViz
 
 .. code-block:: bash
 
@@ -77,7 +77,7 @@ TurtleBot3 Waffle
 .. NOTE::
   If `lost sync with device` error message is displayed on the terminal window, sensor devices of the TurtleBot3 might not be securely connected.
 
-[``Remote PC``] Run rviz
+[``Remote PC``] Run RViz
 
 .. code-block:: bash
 
@@ -86,4 +86,4 @@ TurtleBot3 Waffle
 
 .. image:: _static/bringup/rviz_waffle_model.jpg
 
-Now, you can test TurtleBot3 with various teleoperation methods.
+In the next chapter, you will be able to test TurtleBot3 with various teleoperation methods.

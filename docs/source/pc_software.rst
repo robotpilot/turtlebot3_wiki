@@ -30,7 +30,10 @@ Install ROS in the remote PC
 
 [``Remote PC``] There are two ways to install `ROS`_. If you prefer manual installation, please take the second method.
 
-**First Method** : Install `ROS`_ by using a simple installation script file
+First Method
+~~~~~~~~~~~~
+
+Install `ROS`_ by using a simple installation script file
 
 .. TIP:: The terminal application can be found with the Ubuntu search icon on the top left corner of the screen. Shortcut key for terminal is Ctrl-Alt-T.
 
@@ -40,7 +43,10 @@ Install ROS in the remote PC
   sudo apt-get upgrade
   wget https://raw.githubusercontent.com/ROBOTIS-GIT/robotis_tools/master/install_ros_kinetic.sh && chmod 755 ./install_ros_kinetic.sh && bash ./install_ros_kinetic.sh
 
-**Second Method** : You can start from "`1.2 Setup your sources.list`_" and keep following the instruction until "`1.7 Getting rosinstall`_" from below ROS installation instruction link.
+Second Method
+~~~~~~~~~~~~~
+
+You can start from "`1.2 Setup your sources.list`_" and keep following the instruction until "`1.7 Getting rosinstall`_" from below ROS installation instruction link.
 
 - http://wiki.ros.org/kinetic/Installation/Ubuntu
 

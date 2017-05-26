@@ -6,14 +6,14 @@ SBC Software Setup
 .. image:: _static/software/remote_pc_and_turtlebot.png
     :align: center
 
-.. NOTE:: The ``SBC(Single-Board Computer)`` is a complete computer built on a single circuit board with microprocessor(s), memory, input/output (I/O) and other features required as a fully functional computer. The TurtleBot3 uses Raspberry Pi (TB3 Burger) and Intel® Joule™ (TB3 Waffle) as SBC.
+.. NOTE:: An ``SBC(Single-Board Computer)`` is a complete computer built on a single circuit board with microprocessor(s), memory, input/output (I/O) and other features required as a fully functional computer. TurtleBot3 uses Raspberry Pi (TB3 Burger) and Intel® Joule™ (TB3 Waffle) as SBC.
 
 .. NOTE:: This instruction was tested on ``Ubuntu 16.04`` and ``ROS Kinetic Kame``.
 
-Install Linux on the TurtleBot3 Burger (Raspberry Pi 3)
+Install Linux on TurtleBot3 Burger (Raspberry Pi 3)
 ---------------------------------------------------------
 
-.. WARNING:: The SDcard should have at least **8 GB** of empty space in order to install Linux on the TurtleBot3.
+.. WARNING:: The SDcard should have at least **8 GB** of empty space in order to install Linux on TurtleBot3.
 
 [``Remote PC``] Download ``Ubuntu MATE 16.04`` on the Raspberry Pi 3 from the link below.
 
@@ -45,7 +45,7 @@ Install Linux on the TurtleBot3 Burger (Raspberry Pi 3)
 
   https://sourceforge.net/projects/win32diskimager/
 
-Install Linux on the TurtleBot3 Waffle (Intel® Joule™)
+Install Linux on TurtleBot3 Waffle (Intel® Joule™)
 -------------------------------------------------------
 
 In this section, an alternative Ubuntu Desktop 16.04 LTS will be installed on Intel® Joule™.
@@ -90,7 +90,7 @@ In this section, an alternative Ubuntu Desktop 16.04 LTS will be installed on In
 
 .. image:: _static/preparation/j8.JPG
 
-[``Intel® Joule™``] The installation will take about 10 minutes.
+[``Intel® Joule™``] Installation will take about 10 minutes.
 
 .. image:: _static/preparation/j9.JPG
 
@@ -142,7 +142,9 @@ Install ROS and Packages (Burger and Waffle)
 
 [``TurtleBot``] There are two ways to install `ROS`_. If you prefer manual installation, please take the second method.
 
-**First Method** : Install `ROS`_ by using a simple installation script file.
+First Method
+~~~~~~~~~~~~
+[``TurtleBot``] Install `ROS`_ by using a simple installation script file.
 
 .. TIP:: The terminal application can be found with the Ubuntu search icon on the top left corner of the screen. Shortcut key for terminal is Ctrl-Alt-T.
 
@@ -152,13 +154,17 @@ Install ROS and Packages (Burger and Waffle)
   sudo apt-get upgrade
   wget https://raw.githubusercontent.com/oroca/oroca-ros-pkg/kinetic/ros_install.sh && chmod 755 ./ros_install.sh && bash ./ros_install.sh catkin_ws kinetic
 
-**Second Method** : You can start from "`1.2 Setup your sources.list`_" and keep following the instruction until "`1.7 Getting rosinstall`_" from below ROS installation instruction link.
+Second Method
+~~~~~~~~~~~~~
+[``TurtleBot``] You can start from "`1.2 Setup your sources.list`_" and keep following the instruction until "`1.7 Getting rosinstall`_" from below ROS installation instruction link.
 
 - http://wiki.ros.org/kinetic/Installation/Ubuntu
 
 .. NOTE:: In order to check which packages are installed, please check this link out. https://raw.githubusercontent.com/oroca/oroca-ros-pkg/kinetic/ros_install.sh
 
-[``TurtleBot``] The next step is to install dependent packages for the TurtleBot3 control.
+Install Dependent Packages
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+[``TurtleBot``] The next step is to install dependent packages for TurtleBot3 control.
 
 .. code-block:: bash
 

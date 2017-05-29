@@ -171,6 +171,6 @@ The CAD data is released to the `Onshape`_, which is a full-cloud 3D CAD editor.
 - TurtleBot3 Waffle 3D Model: https://goo.gl/wCDvVI
 
 
-.. _Assembly manual for TurtleBot3 Burger: https://drive.google.com/file/d/0B5tlMnyFIdLYWDRfRjRLUHduRDA/view?usp=sharing
-.. _Assembly manual for TurtleBot3 Waffle: https://drive.google.com/file/d/0B5tlMnyFIdLYd3VHRDBKM2xsY2M/view?usp=sharing
+.. _Assembly manual for TurtleBot3 Burger: https://drive.google.com/file/d/0B8u1-N9yBAQoOVZDZGI4dDNPdjQ/view?usp=sharing
+.. _Assembly manual for TurtleBot3 Waffle: https://drive.google.com/file/d/0B8u1-N9yBAQoTVNVcjYtSE1iQWc/view?usp=sharing
 .. _Onshape: https://cad.onshape.com/documents?filter=recently-opened&column=modifiedAt&order=desc&viewMode=0&q=turtlebot3

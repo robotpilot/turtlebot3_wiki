@@ -3,14 +3,6 @@
 Appendix #DYNAMIXEL
 ===================
 
-.. image:: _static/appendix/dynamixel/dynamixel_x.jpg
-
-.. raw:: html
-
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/gZWoyCvU-U8" frameborder="0" allowfullscreen></iframe>
-
-|
-
 Overview
 --------
 
@@ -36,6 +28,13 @@ DYNAMIXEL X-Series shares its design, therefore, users can replace actuators dep
 
 .. NOTE:: Control Functions may vary by models.
 
+.. image:: _static/appendix/dynamixel/dynamixel_x.jpg
+
+.. raw:: html
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/gZWoyCvU-U8" frameborder="0" allowfullscreen></iframe>
+
+|
 
 Specifications
 --------------
@@ -73,6 +72,10 @@ Specifications
 +----------------+-----------------------------------------------+-------------------------------------------------------+
 | Standby Current| 52mA                                          | 40mA                                                  |
 +----------------+-----------------------------------------------+-------------------------------------------------------+
+
+More information for actuators can be found at below ROBOTIS e-Manual links.
+- `XL430-W250`_
+- `XM430-W210`_
 
 .. _XL430-W250: http://support.robotis.com/en/product/actuator/dynamixel_x/xl_series/xl430-w250.htm
 .. _XM430-W210: http://support.robotis.com/en/product/actuator/dynamixel_x/xm_series/xm430-w210.htm

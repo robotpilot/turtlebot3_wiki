@@ -27,6 +27,7 @@ TurtleBot3 Official Wiki
    applications
    friends
    appendix_opencr
+   appendix_dynamixel
    appendix_lds
    appendix_realsense
    appendix_opensource

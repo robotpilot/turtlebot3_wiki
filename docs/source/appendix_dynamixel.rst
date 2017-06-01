@@ -8,6 +8,8 @@ Appendix #DYNAMIXEL
 .. raw:: html
   <iframe width="560" height="315" src="https://www.youtube.com/embed/gZWoyCvU-U8" frameborder="0" allowfullscreen></iframe>
 
+|
+
 Overview
 --------
 
@@ -15,14 +17,16 @@ Overview
 Two different types of DYNAMIXEL is adopted in TurtleBot3 Burger and Waffle as they have different requirements. 
 DYNAMIXEL X-Series shares its design, therefore, users can replace actuators depend on applications.
 
-**Basic Feature**
+**Basic Feature**  
+
 - Improved Torque with Compact Size
 - Enhanced Durability and Expandability
 - Hollow Back Case Minimizes Cable Stress (3-way-routing)
 - Direct Screw Assembly to the Case (without Nut Insert)
 - Improved Heat Sink Featuring Aluminum Case
 
-**Various Control Functions**
+**Various Control Functions**  
+
 - 6 Operating Modes
 - Current-Based Torque Control (4096 steps, 2.69mA/step)
 - Profile Control for Smooth Motion Planning

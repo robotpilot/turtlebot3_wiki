@@ -74,9 +74,10 @@ Specifications
 +----------------+-----------------------------------------------+-------------------------------------------------------+
 
 
-More information for actuators can be found at below ROBOTIS e-Manual links.
-
+More information for actuators can be found at below ROBOTIS e-Manual links.  
+|
 - `XL430-W250`_  
+|
 - `XM430-W210`_  
 
 .. _XL430-W250: http://support.robotis.com/en/product/actuator/dynamixel_x/xl_series/xl430-w250.htm

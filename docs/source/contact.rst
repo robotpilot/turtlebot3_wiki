@@ -3,13 +3,13 @@
 Contact US
 ==========
 
-ABOUT OSRF
-----------
+ABOUT Open Robotics
+-------------------
 
-.. image:: _static/logo_osrf.png
+.. image:: _static/logo_openrobotics.png
    :width: 500px
 
-`Open Source Robotics Foundation, Inc. (OSRF)`_ is an independent non-profit organization founded by members of the global robotics community. The mission of OSRF is to support the development, distribution, and adoption of open source software for use in robotics research, education, and product development.
+`Open Robotics`_ is an independent non-profit organization founded by members of the global robotics community. The mission of Open Robotics is to support the development, distribution, and adoption of open source software for use in robotics research, education, and product development.
 
 :Address: 170 S Whisman Rd, Building D, Suite A, Mountain View, CA 94041, USA
 :E-Mail: turtlebot@osrfoundation.org
@@ -65,7 +65,7 @@ ABOUT OST (Open Source Team)
 :Members: Ashe Kim, Daniel Seon, Darby Lim, Hancheol Cho, Jason Jin, Leon Jung, M. Y, Will Son, Yoonseok Pyo
 :Alumni: Christopher Tatsch, Yoshihiro Shibata
 :Supporter: JangHo Kim, Jinwook Kim, Woosik Yang, OROCA
-:Collaboration Team: OSRF, Intel, OROCA, Onshape, OSU
+:Collaboration Team: Open Robotics, Intel, OROCA, Onshape, OSU
 
 We are **Open Source Team** in ROBOTIS HQ. With open source hardwares and softwares, our robot friends are hoping to enrich our lives. We mainly develop and support Dynamixel SDK, OpenManipulator, OpenCM, OpenCR and OpenAutonomousCar.
 Our favorite platform is ROS! :) We are delighted to be in charge of developing TurtleBot3, the official reference platform for ROS, and in the future we will be the team that can support you to get closer to your robot dreams.
@@ -73,5 +73,5 @@ Our favorite platform is ROS! :) We are delighted to be in charge of developing 
 :GutHub: https://github.com/ROBOTIS-GIT
 :E-Mail: ost@robotis.com
 
-.. _Open Source Robotics Foundation, Inc. (OSRF): http://www.osrfoundation.org/
+.. _Open Robotics: https://www.openrobotics.org/
 .. _ROBOTIS: http://wwww.robotis.com/

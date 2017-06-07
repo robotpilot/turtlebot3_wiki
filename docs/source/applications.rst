@@ -27,7 +27,11 @@ In order to implement these demos, you have to install the turtlebot3_applicatio
 TurtleBot Follower Demo
 -----------------------
 
-.. NOTE:: The robot follower demo was implemented using only HLS-LFCD LDS, a classification algorithm is used based on previous fitting with samples of person and obstacles positions to take actions. It follows someone in front of the robot inside the 1 meter range and 140 degrees.
+.. NOTE:: The robot follower demo was implemented using only HLS-LFCD LDS, a classification algorithm is used based on previous fitting with samples of person and obstacles positions to take actions. It follows someone in front of the robot inside the 0.5 meter range and 140 degrees.
+
+.. NOTE:: Running the follower demo in an area with obstacles may not work well. Therefore, we recommend that you run in a wide area without obstacles.
+
+.. NOTE:: Before we start the demo, we have some code changes. Not in [``Remote PC``] but in [``TurtleBot``]. changing the base scan to odom in the laidr launch file of TurtleBot3. just like this <param name = "frame_id" value = "odom" />.
 
 .. NOTE::  Turtlebot Follower Demo requires scikit-learn, NumPy and ScyPy packages. So follower demo requires to install python.
 

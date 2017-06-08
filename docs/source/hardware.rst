@@ -117,12 +117,12 @@ TurtleBots3 is delivered as unassembled parts in the boxes. Follow the instructi
 TurtleBot3 Burger
 ~~~~~~~~~~~~~~~~~
 
-:download: `Assembly manual for TurtleBot3 Burger`_
+:download: `Assembly manual for TurtleBot3 Burger [PDF]`_
 
 TurtleBot3 Waffle
 ~~~~~~~~~~~~~~~~~
 
-:download: `Assembly manual for TurtleBot3 Waffle`_
+:download: `Assembly manual for TurtleBot3 Waffle [PDF]`_
 
 Assembly Video
 --------------
@@ -171,6 +171,6 @@ The CAD data is released to the `Onshape`_, which is a full-cloud 3D CAD editor.
 - TurtleBot3 Waffle 3D Model: https://goo.gl/wCDvVI
 
 
-.. _Assembly manual for TurtleBot3 Burger: https://drive.google.com/file/d/0B8u1-N9yBAQoOVZDZGI4dDNPdjQ/view?usp=sharing
-.. _Assembly manual for TurtleBot3 Waffle: https://drive.google.com/file/d/0B8u1-N9yBAQoTVNVcjYtSE1iQWc/view?usp=sharing
+.. _Assembly manual for TurtleBot3 Burger [PDF]: https://drive.google.com/file/d/0B8u1-N9yBAQoOVZDZGI4dDNPdjQ/view?usp=sharing
+.. _Assembly manual for TurtleBot3 Waffle [PDF]: https://drive.google.com/file/d/0B8u1-N9yBAQoTVNVcjYtSE1iQWc/view?usp=sharing
 .. _Onshape: https://cad.onshape.com/documents?filter=recently-opened&column=modifiedAt&order=desc&viewMode=0&q=turtlebot3

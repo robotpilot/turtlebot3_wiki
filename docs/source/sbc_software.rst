@@ -215,7 +215,7 @@ Texts in the rectangle is the IP address of the ``TurtleBot``.
 
   gedit ~/.bashrc
 
-[``TurtleBot``] Replace the word `localhost` in the rectangle with the IP address acquired from the above terminal window.
+[``TurtleBot``] Replace the `localhost` in the ROS_MASTER_URI address with the IP address acquired from `Remote PC Network Configuration`_. Also replace the `localhost` in the ROS_HOSTNAME address with the IP address acquired from the above terminal window, which is the IP address of TurtleBot3.
 
 .. image:: _static/software/network_configuration5.png
 
@@ -229,4 +229,5 @@ Texts in the rectangle is the IP address of the ``TurtleBot``.
 .. _Alternative install(Ubuntu Desktop 16.04 LTS): https://developer.ubuntu.com/core/get-started/intel-joule#alternative-install:-ubuntu-desktop-16.04-lts
 .. _1.2 Setup your sources.list: http://wiki.ros.org/kinetic/Installation/Ubuntu#Installation.2BAC8-Ubuntu.2BAC8-Sources.Setup_your_sources.list
 .. _1.7 Getting rosinstall : http://wiki.ros.org/kinetic/Installation/Ubuntu#Getting_rosinstall
+.. _Remote PC Network Configuration: http://turtlebot3.robotis.com/en/latest/pc_software.html#network-configuration
 .. _ROS: http://wiki.ros.org

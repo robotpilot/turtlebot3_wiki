@@ -46,6 +46,7 @@ TurtleBot Follower Demo
 [``Remote PC``] When installation is completed, run roscore on the remote pc with below command.
 
 .. code-block:: bash
+
   roscore
   
   

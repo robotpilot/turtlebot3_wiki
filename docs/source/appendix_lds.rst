@@ -76,6 +76,11 @@ The following link contains information about basic performance, measurement per
 
 Here is the detail specification document :download:`pdf <_static/docs/LDS_Basic_Specification.pdf>`
 
+.. NOTE:: The LDS for TurtleBot3 uses molex 51021-0800 and 53048-0810 instead of the basic housing and connector.
+- [for LDS] Molex 51021-0800 (http://www.molex.com/pdm_docs/sd/510210800_sd.pdf)
+- [for USB2LDS] Molex 53048-0810  (http://www.molex.com/pdm_docs/sd/530480810_sd.pdf)
+
+
 
 LDS for TurtleBot3
 ------------------

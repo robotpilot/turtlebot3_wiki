@@ -39,7 +39,7 @@ TurtleBot Follower Demo
 
 .. code-block:: bash
 
-  sudo apt-get install python -pip
+  sudo apt-get install python-pip
   sudo pip install -U scikit-learn numpy scipy
   sudo pip install --upgrade pip
   

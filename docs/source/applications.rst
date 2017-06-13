@@ -37,9 +37,12 @@ TurtleBot Follower Demo
 
   pluma ~/catkin_ws/src/turtlebot3/turtlebot3_bringup/launch/turtlebot3_lidar.launch
   
+  
 .. image:: _static/application/base_scan.png
 
+
 .. image:: _static/application/odom.png
+
 
 .. NOTE::  Turtlebot Follower Demo requires scikit-learn, NumPy and ScyPy packages. 
 

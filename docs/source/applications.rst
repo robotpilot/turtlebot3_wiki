@@ -62,11 +62,11 @@ TurtleBot Follower Demo
 
   cd turtlebot3_applications/turtlebot3_follower/src
 
-[``Remote PC``] Launch turtlebot_follow_filter with below command.
+[``Remote PC``] Launch turtlebot3_follow_filter with below command.
   
 .. code-block:: bash
 
-  roslaunch turtlebot_follow_filter turtlebot_follow_filter.launch
+  roslaunch turtlebot3_follow_filter turtlebot3_follow_filter.launch
     
 [``Remote PC``] Launch turtlebot3_follower with below command.
 

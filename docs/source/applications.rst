@@ -42,6 +42,12 @@ TurtleBot Follower Demo
   sudo apt-get install python-pip
   sudo pip install -U scikit-learn numpy scipy
   sudo pip install --upgrade pip
+
+[``Remote PC``] When installation is completed, run roscore on the remote pc with below command.
+
+.. code-block:: bash
+  roscore
+  
   
 [``TurtleBot``] Launch the Turtlebot3_bringup
 

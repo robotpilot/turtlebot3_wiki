@@ -19,6 +19,7 @@ TurtleBot3 is a collaboration project among Open Robotics, ROBOTIS, and more par
 News
 ----
 
+- 06/14/2017 `Open Source TurtleBot 3 Robot Kit Runs Ubuntu and ROS on Raspberry Pi, Linux.com <https://www.linux.com/news/event/open-source-summit-na/2017/6/open-source-turtlebot-3-robot-kit-runs-ubuntu-and-ros-raspberry-pi>`_
 - 06/09/2017 `Ubuntu-driven TurtleBot gets a major rev with a Pi or Joule in the driver’s seat, LinuxGizmos.com <http://linuxgizmos.com/ubuntu-driven-turtlebot-gets-a-major-rev-with-a-pi-or-joule-in-the-drivers-seat/>`_
 - 05/31/2017 `The Turtlebot 3 has launched, Ubuntu <https://insights.ubuntu.com/2017/05/31/the-turtlebot-3-has-launched/>`_
 - 05/29/2017 `All the Latest, Most Exciting Robotics Research From ICRA 2017, IEEE Spectrum <http://spectrum.ieee.org/automaton/robotics/robotics-software/all-the-latest-most-exciting-robotics-research-from-icra-2017>`_

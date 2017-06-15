@@ -20,6 +20,7 @@ News
 ----
 
 - 06/09/2017 `Ubuntu-driven TurtleBot gets a major rev with a Pi or Joule in the driver’s seat, LinuxGizmos.com <http://linuxgizmos.com/ubuntu-driven-turtlebot-gets-a-major-rev-with-a-pi-or-joule-in-the-drivers-seat/>`_
+- 05/31/2017 `The Turtlebot 3 has launched, Ubuntu <https://insights.ubuntu.com/2017/05/31/the-turtlebot-3-has-launched/>`_
 - 05/29/2017 `All the Latest, Most Exciting Robotics Research From ICRA 2017, IEEE Spectrum <http://spectrum.ieee.org/automaton/robotics/robotics-software/all-the-latest-most-exciting-robotics-research-from-icra-2017>`_
 - 05/17/2017 `The Silicon Valley Startup Creating Robot DNA, Bloomberg <https://www.bloomberg.com/news/videos/2017-05-17/the-silicon-valley-startup-creating-robot-dna-video>`_
 - 05/02/2017 `Hands-on With TurtleBot 3, a Powerful Little Robot for Learning ROS, IEEE Spectrum <http://spectrum.ieee.org/automaton/robotics/robotics-hardware/review-robotis-turtlebot-3>`_

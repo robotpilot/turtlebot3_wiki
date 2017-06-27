@@ -148,15 +148,15 @@ First Method
 
 .. TIP:: The terminal application can be found with the Ubuntu search icon on the top left corner of the screen. Shortcut key for terminal is Ctrl-Alt-T.
 
-[``Burger``]
+[``TurtleBot Burger``]
 
 .. code-block:: bash
 
   sudo apt-get update
   sudo apt-get upgrade
-  wget https://raw.githubusercontent.com/ROBOTIS-GIT/robotis_tools/master/install_ros_kinetic_rp3.sh && chmod 755 ./install_ros_kinetic.sh && bash ./install_ros_kinetic.sh
+  wget https://raw.githubusercontent.com/ROBOTIS-GIT/robotis_tools/master/install_ros_kinetic_rp3.sh && chmod 755 ./install_ros_kinetic_rp3.sh && bash ./install_ros_kinetic_rp3.sh
 
-[``Waffle``]
+[``TurtleBot Waffle``]
 
 .. code-block:: bash
 

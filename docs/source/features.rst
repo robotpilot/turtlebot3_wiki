@@ -19,7 +19,7 @@ The dimension of TurtleBot3 Burger is only 138mm x 178mm x 192mm (L x W x H). It
 
 ROS STANDARD
 ------------
-The TurtleBot brand is managed by `Open Robotics`_, which develops and maintains ROS. Nowadays, ROS has become the go-to platform for all the roboticists around the world. TurtleBot can obviously can be integrated by the existing ROS-based robots, but basically can be an affordable platform for whom want to get started learning ROS.
+The TurtleBot brand is managed by `Open Robotics`_, which develops and maintains ROS. Nowadays, ROS has become the go-to platform for all the roboticists around the world. TurtleBot can be integrated with existing ROS-based robot components, but TurtleBot3 can be an affordable platform for whom want to get started learning ROS.
 
 EXTENSIBILITY
 -------------

@@ -157,8 +157,8 @@ You can use ``PUSH SW 1`` and ``PUSH SW 2`` buttons to see whether your robot ha
 
 1. After assembling TurtleBot3, connect the battery to OpenCR and turn on the power switch. You can see that the ``Power LED`` of OpenCR turns on.
 2. Place the robot on the floor. For the test, safety radius of 1 meter (about 40 inches) is recommended.
-3. Press ``PUSH SW 1`` to command the robot to move 30 centimeters (about 12 inches) forward.
-#. Press ``PUSH SW 2`` to command the robot to rotate 180 degrees in place.
+3. Press and hold ``PUSH SW 1`` for a few seconds to command the robot to move 30 centimeters (about 12 inches) forward.
+#. Press and hold ``PUSH SW 2`` for a few seconds to command the robot to rotate 180 degrees in place.
 
 Open Source Hardware
 --------------------

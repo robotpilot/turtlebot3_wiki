@@ -127,7 +127,7 @@ TurtleBot3 Waffle
 Assembly Video
 --------------
 
-If it is difficult to assemble only the assembly manual, please refer to the following video.
+If it is difficult to assemble with the assembly manual, please refer to the following assembly video.
 
 
 TurtleBot3 Burger

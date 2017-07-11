@@ -75,8 +75,8 @@ Our favorite platform is ROS! :) We are delighted to be in charge of developing 
 
 .. raw:: html
 
-  <iframe width="640" height="360" src="https://www.youtube.com/embed/9OC3J53RUsk?ecver=1" frameborder="0" allowfullscreen></iframe>
-
+  <iframe width="640" height="360" src="https://www.youtube.com/embed/jFvEGKkdOqM?ecver=1" frameborder="0" allowfullscreen></iframe>
+  
 |
 
 .. _Open Robotics: https://www.openrobotics.org/

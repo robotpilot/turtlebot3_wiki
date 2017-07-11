@@ -5,6 +5,13 @@ TurtleBot3 Official Wiki
 
 .. image:: _static/hardware/turtlebot3_models.png
 
+.. raw:: html
+
+  <iframe width="640" height="360" src="https://www.youtube.com/embed/9OC3J53RUsk?ecver=1" frameborder="0" allowfullscreen></iframe>
+
+|
+
+
 .. toctree::
    :numbered:
    :maxdepth: 2

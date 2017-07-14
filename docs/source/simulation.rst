@@ -60,13 +60,6 @@ Gazebo (3D)
 
 .. WARNING:: If you are running Gazebo for the first time on your ``Remote PC``, it takes a bit longer than usual.
 
-Before launching Gazebo simulation with TurtleBot3, ``TurtleBot3 model files`` should be copied into ``gazebo model folder`` with below command.
-
-.. code-block:: bash
-  
-  mkdir -p ~/.gazebo/models/
-  cp -r  ~/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/worlds/turtlebot3 ~/.gazebo/models/
-
 You should set Turtlebot3 model parameter. Select either burger or waffle for the model parameter in the below command.
 
 .. code-block:: bash

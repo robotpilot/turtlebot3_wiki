@@ -18,6 +18,11 @@ TurtleBot3 Fake Node Implementation
 Install dependent packages for TurtleBot3 Simulation.
 
 .. NOTE:: turtlebot3_simulation package requires **turtlebot3** package as a prerequisite. 
+  .. code-block:: bash
+  
+    cd ~/catkin_ws/src/
+    git clone https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
+    cd ~/catkin_ws && catkin_make
 
 .. code-block:: bash
 

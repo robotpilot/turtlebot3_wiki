@@ -17,13 +17,7 @@ TurtleBot3 Fake Node Implementation
 
 Install dependent packages for TurtleBot3 Simulation.
 
-.. NOTE:: turtlebot3_simulation package requires **turtlebot3** package as a prerequisite. 
-
-  .. code-block:: bash
-  
-    cd ~/catkin_ws/src/
-    git clone https://github.com/ROBOTIS-GIT/turtlebot3.git
-    cd ~/catkin_ws && catkin_make
+.. NOTE:: turtlebot3_simulation package requires **"`TurtleBot3`_"** package as a prerequisite.
 
 .. code-block:: bash
 
@@ -112,3 +106,5 @@ RViz visualizes published topics while simulation is running. You can launch RVi
   roslaunch turtlebot3_gazebo turtlebot3_gazebo_rviz.launch
 
 .. image:: _static/simulation/turtlebot3_gazebo_rviz.png
+
+.. _TurtleBot3: http://turtlebot3.robotis.com/en/latest/pc_software.html#install-dependent-packages

@@ -17,8 +17,7 @@ TurtleBot3 Fake Node Implementation
 
 Install dependent packages for TurtleBot3 Simulation.
 
-.. NOTE:: turtlebot3_simulation package requires **TurtleBot3** package as a prerequisite.
- - http://turtlebot3.robotis.com/en/latest/pc_software.html#install-dependent-packages
+.. NOTE:: turtlebot3_simulation package requires **`Turtlebot3 <http://turtlebot3.robotis.com/en/latest/pc_software.html#install-dependent-packages>`_** package as a prerequisite.
 
 .. code-block:: bash
 

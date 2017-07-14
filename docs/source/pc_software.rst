@@ -51,7 +51,7 @@ You can start from "`1.2 Setup your sources.list`_" and keep following the instr
 
 - http://wiki.ros.org/kinetic/Installation/Ubuntu
 
-.. NOTE:: In order to check which packages are installed, please check this link out. https://raw.githubusercontent.com/oroca/oroca-ros-pkg/kinetic/ros_install.sh
+.. NOTE:: In order to check which packages are installed, please check this link out. https://raw.githubusercontent.com/ROBOTIS-GIT/robotis_tools/master/install_ros_kinetic.sh 
 
 Configure ROS Environment
 ~~~~~~~~~~~~~~~~~~~~~~~~~

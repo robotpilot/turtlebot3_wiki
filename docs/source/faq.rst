@@ -23,3 +23,12 @@ So, you can download the STL files directly from each Onshape address as shown i
 .. image:: _static/faq/download_the_stl_files_01.png
 
 .. image:: _static/faq/download_the_stl_files_02.png
+
+
+Q2) Intel® Joule™ USB-C port is not recognized on Windows 10.
+
+A2) Some users have reported that the USB-C port is not recognized on Windows 10 when they were trying to update BIOS.
+Please check below link that describes the solution that worked out(Thanks for rknlhrqy and VRAORESEARCH).
+
+1. https://discourse.ros.org/t/turtlebot-3-successfully-upload-alternative-ubuntu-desktop-16-04-to-joule/2224
+2. https://communities.intel.com/thread/109766

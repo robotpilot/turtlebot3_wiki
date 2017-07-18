@@ -99,6 +99,10 @@ User Guide
 Installation
 ~~~~~~~~~~~~
 
+.. WARNING::
+
+  There are installation prerequisites for the Intel® RealSense™ package installation in http://wiki.ros.org/librealsense
+
 The following commands will install relevant Intel® RealSense™ packages on your ROS system.
 
 .. code-block:: bash

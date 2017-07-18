@@ -8,7 +8,7 @@ Appendix #LDS
 Overview
 --------
 
-HLS-LFCD LDS is used for both TurtleBot3 Burger and TurtleBot3 Waffle. The LDS(LASER Distance Sensor) is a sensor which collects a set of distance data and send them to the host for the Simultaneous Localization and Mapping (SLAM) technique.
+LDS (HLS-LFCD2) is used for both TurtleBot3 Burger and TurtleBot3 Waffle. The LDS(LASER Distance Sensor) is a sensor which collects a set of distance data and send them to the host for the Simultaneous Localization and Mapping (SLAM) technique.
 
 .. raw:: html
 
@@ -85,14 +85,14 @@ Here is the detail specification document :download:`pdf <_static/docs/LDS_Basic
 LDS for TurtleBot3
 ------------------
 
-The HLS-LFCD LDS is used for both TurtleBot3 Burger and TurtleBot3 Waffle.
+The LDS (HLS-LFCD2) is used for both TurtleBot3 Burger and TurtleBot3 Waffle.
 
 .. image:: _static/hardware/turtlebot3_models.png
 
 Introduction Video
 ------------------
 
-ROS Hector SLAM demo using only a HLS-LFCD LDS made by HLDS (Hitachi-LG Data Storage).
+ROS Hector SLAM demo using only a LDS (HLS-LFCD2) made by HLDS (Hitachi-LG Data Storage).
 
 .. raw:: html
 
@@ -100,7 +100,7 @@ ROS Hector SLAM demo using only a HLS-LFCD LDS made by HLDS (Hitachi-LG Data Sto
 
 |
 
-ROS Gmapping and Cartographer SLAM demo using TurtleBot3 and the HLS-LFCD LDS.
+ROS Gmapping and Cartographer SLAM demo using TurtleBot3 and the LDS (HLS-LFCD2).
 
 .. raw:: html
 

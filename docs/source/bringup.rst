@@ -14,6 +14,19 @@ Bringup
 
 .. WARNING:: When the battery voltage is lower than 11V, the buzzer alarm will continuously sound and actuators will be disabled. The battery must be recharged when the buzzer alarm sounds.
 
+.. TIP:: Before start bringup TurtleBot3, We recommend you add ``export`` command to ``bash.rc`` depend on your TurtleBot3(``burger`` or ``waffle``)
+  
+  .. code-block:: bash
+
+    getdit ~/.bashrc
+
+  .. image:: _static/bringup/bashrc.png
+    :align: center
+
+  .. code-block:: bash
+
+    source ~/.bashrc
+
 
 Bringup TurtleBot3
 ----------------------

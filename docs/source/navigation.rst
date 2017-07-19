@@ -56,11 +56,6 @@ Every green arrow stands for an expected position of TurtleBot3. The laser scann
 Setting a goal position might fail if the path to the goal position cannot be created.
 If you wish to stop the robot before it reaches to the goal position, set the current position of TurtleBot3 as a goal position.
 
-.. raw:: html
-
-  <iframe width="640" height="360" src="https://www.youtube.com/embed/o4yjNPKj3ps" frameborder="0" allowfullscreen></iframe>
-
-|
 
 .. raw:: html
 

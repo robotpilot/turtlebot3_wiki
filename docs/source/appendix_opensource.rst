@@ -29,7 +29,7 @@ Hardware
  - https://github.com/ROBOTIS-GIT/OpenCR-Hardware
 
 - [TurtleBot3 Hardware]
- - TurtleBot3 Burger Model: https://goo.gl/n3bGNr
+ - TurtleBot3 Burger Model: https://goo.gl/SZRdMd
  - TurtleBot3 Waffle Model: https://goo.gl/wCDvVI
  - TurtleBot3 OpenManipulator Chain Model: https://goo.gl/xgxh2G
  - TurtleBot3 Segway Model: https://goo.gl/DsQXaR
@@ -42,3 +42,7 @@ Hardware
  - TurtleBot3 Road Train Model: https://goo.gl/aXX06O
  - TurtleBot3 Real TurtleBot Model: https://goo.gl/GAIXLI
  - TurtleBot3 Carrier Model: https://goo.gl/5LKFxs
+ 
+- [OpenManiapulator Hardware]
+ - OpenManiapulator Chain Model:	https://goo.gl/NsqJMu
+ - OpenManiapulator SCARA Model:	https://goo.gl/oVsK8m 

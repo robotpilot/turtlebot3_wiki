@@ -100,15 +100,14 @@ Wii Remote
 
 .. code-block:: bash
 
-  rosdep install wiimote
-  rosmake wiimote
+  sudo apt-get install ros-kinetic-wiimote 
 
 [``Remote PC``] Run teleoperation packages for Wii remote.
 
 .. code-block:: bash
 
-  rosrun wiimote wiimote_node.py
-  rosrun learning_wiimote turtle_teleop_wiimote
+  rosrun wiimote wiimote_node
+  rosrun wiimote teleop_wiimote
 
 Nunchuk
 -------

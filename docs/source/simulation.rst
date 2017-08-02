@@ -79,6 +79,7 @@ If you wish to load more interesting map, please use below command instead of ab
   
 .. code-block:: bash
 
+  export TURTLEBOT3_MODEL=burger
   roslaunch turtlebot3_gazebo turtlebot3_world.launch
 
 .. image:: _static/simulation/turtlebot3_world_bugger.png
@@ -102,7 +103,6 @@ RViz visualizes published topics while simulation is running. You can launch RVi
 
 .. code-block:: bash
 
-  export TURTLEBOT3_MODEL=burger
   roslaunch turtlebot3_gazebo turtlebot3_gazebo_rviz.launch
 
 .. image:: _static/simulation/turtlebot3_gazebo_rviz.png

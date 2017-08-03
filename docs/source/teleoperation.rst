@@ -100,7 +100,15 @@ Wii Remote
 
 .. code-block:: bash
 
-  sudo apt-get install ros-kinetic-wiimote 
+  sudo apt-get install ros-kinetic-wiimote
+  sudo apt-get install libbluetooth-dev
+  sudo apt-get install libcwiid-dev
+ 
+.. code-block:: bash
+
+  cd ~/catkin_ws/src
+  git clone https://github.com/ros-drivers/joystick_drivers.git  
+  cd ~/catkin_ws && catkin_make
 
 [``Remote PC``] Run teleoperation packages for Wii remote.
 

@@ -100,9 +100,7 @@ Wii Remote
 
 .. code-block:: bash
 
-  sudo apt-get install ros-kinetic-wiimote
-  sudo apt-get install libbluetooth-dev
-  sudo apt-get install libcwiid-dev
+  sudo apt-get install ros-kinetic-wiimote libbluetooth-dev libcwiid-dev
  
 .. code-block:: bash
 

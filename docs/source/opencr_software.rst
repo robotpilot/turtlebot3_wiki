@@ -153,7 +153,7 @@ Programmer Setting
 Entering the DFU Mode
 .....................
 
-[``Remote PC``] Press ``Reset`` button while ``Boot`` button is pressed. This enables user to activate the DFU mode.
+[``Remote PC``] Press ``Boot`` button at first, then press ``Reset`` button after few seconds while ``Boot`` button is pressed. Keeping ``Boot`` button pressed, release ``Reset`` button at second. Finally, release ``Boot`` button slowly. This enables user to activate the DFU mode.
 
 .. image:: _static/preparation/opencr_button_for_dfu.png
 

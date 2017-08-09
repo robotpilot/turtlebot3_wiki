@@ -18,7 +18,7 @@ Bringup
   
   .. code-block:: bash
 
-    getdit ~/.bashrc
+    gedit ~/.bashrc
 
   .. image:: _static/bringup/bashrc.png
     :align: center

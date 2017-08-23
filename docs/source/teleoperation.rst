@@ -88,7 +88,7 @@ XBOX 360 Joystick
 
 .. code-block:: bash
 
-  xboxdrv --silent
+  sudo xboxdrv --silent
   roslaunch teleop_twist_joy teleop.launch
 
 Wii Remote

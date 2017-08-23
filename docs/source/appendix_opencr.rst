@@ -91,6 +91,8 @@ Specification
 
 * Hot swap power switch between "shore power"(12V, 5A SMPS) and "mobile power"(battery) from OpenCR board enables UPS(Uninterrupted Power Supply) feature.
 
+* CAN, UART Connector Partnumber : `Yeonho 20010WS-04000<http://www.alldatasheet.com/datasheet-pdf/pdf/147797/YEONHO/20010WS-04000.html>`_(Mating Housing : `Yeonho 20010HS-04000<http://www.alldatasheet.com/datasheet-pdf/pdf/147794/YEONHO/20010HS-04000.html>`_)
+
 User Guide
 ------------
 

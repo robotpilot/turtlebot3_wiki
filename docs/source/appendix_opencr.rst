@@ -91,6 +91,7 @@ Specification
 
 * Hot swap power switch between "shore power"(12V, 5A SMPS) and "mobile power"(battery) from OpenCR board enables UPS(Uninterrupted Power Supply) feature.
 
+* Dynamixel Connectors(JST EH Connector, TTL: B3B-EH-A, RS-485: B4B-EH-A) : http://www.jst-mfg.com/product/pdf/eng/eEH.pdf
 * CAN, UART Connector(Yeonho 20010WS-04000) : http://www.alldatasheet.com/datasheet-pdf/pdf/147797/YEONHO/20010WS-04000.html
 * CAN, UART Mating Housing(Yeonho 20010HS-04000) : http://www.alldatasheet.com/datasheet-pdf/pdf/147794/YEONHO/20010HS-04000.html
 

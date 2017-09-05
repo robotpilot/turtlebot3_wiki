@@ -23,7 +23,7 @@ Install dependent packages for the Open-Manipulator.
 
 .. code-block:: bash
 
-  sudo apt-get install ros-kinetic-desktop-full ros-kinetic-rqt* ros-kinetic-moveit* ros-kinetic-dynamixel-sdk ros-kinetic-dynamixel-workbench-toolbox ros-kinetic-robotis-math ros-kinetic-industrial-core
+  sudo apt-get install ros-kinetic-ros-controllers ros-kinetic-gazebo* ros-kinetic-moveit* ros-kinetic-dynamixel-sdk ros-kinetic-dynamixel-workbench-toolbox ros-kinetic-robotis-math ros-kinetic-industrial-core
 
 .. code-block:: bash
 

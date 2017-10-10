@@ -58,7 +58,7 @@ In this section, the Alternative Ubuntu Desktop 16.04 LTS will be installed on I
 
 - https://developer.ubuntu.com/core/get-started/intel-joule
 
-[``Remote PC``] Before getting started, Joule requires a BIOS update to install Ubuntu Image. Download the latest software which contains Joule's new BIOS and flash the BIOS into the Joule by following instructions below.
+[``Remote PC``] Before getting started, The board needs to have its BIOS updated to `BIOS version #193`_ to install Ubuntu Image. Download `BIOS version #193`_ and flash the BIOS into the Joule by following instructions in the below link.
 
 - https://software.intel.com/en-us/flashing-the-bios-on-joule
 
@@ -237,7 +237,7 @@ Texts in the rectangle is the IP address of the ``TurtleBot``.
 
   source ~/.bashrc
 
-
+.. _BIOS version #193: https://downloadmirror.intel.com/26206/eng/joule-firmware-2017-02-19-193-public.zip
 .. _Alternative install(Ubuntu Desktop 16.04 LTS): https://developer.ubuntu.com/core/get-started/intel-joule#alternative-install:-ubuntu-desktop-16.04-lts
 .. _1.2 Setup your sources.list: http://wiki.ros.org/kinetic/Installation/Ubuntu#Installation.2BAC8-Ubuntu.2BAC8-Sources.Setup_your_sources.list
 .. _1.7 Getting rosinstall : http://wiki.ros.org/kinetic/Installation/Ubuntu#Getting_rosinstall

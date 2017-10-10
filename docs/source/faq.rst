@@ -32,3 +32,14 @@ Please check below link that describes the solution that worked out(Thanks for r
 
 1. https://discourse.ros.org/t/turtlebot-3-successfully-upload-alternative-ubuntu-desktop-16-04-to-joule/2224
 2. https://communities.intel.com/thread/109766
+
+
+**Q3) Can I charge the battery when the battery is connected to Turtlebot3?**
+
+A3) Charging and discharging the battery at the same is **NOT** recommended and this may void the warranty of the product. If Turtlebot3 needs to be turned on while charging/replacing battery, please follow below procedure:
+
+1. Connect SMPS 12V 5A to OpenCR(http://www.robotis-shop-en.com/?act=shop_en.goods_view&GS=1366&GC=GD0B0102)
+2. Disconnect the depleted battery from OpenCR
+3. Connect the depleted battery to battery charger or replace the depleted battery with a fully charged battery
+4. Connect the fully charged battery to OpenCR
+5. Disconnect SMPS 12V 5A from OpenCR

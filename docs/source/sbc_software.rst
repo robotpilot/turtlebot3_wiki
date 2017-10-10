@@ -62,6 +62,8 @@ In this section, the Alternative Ubuntu Desktop 16.04 LTS will be installed on I
 
 - https://software.intel.com/en-us/flashing-the-bios-on-joule
 
+.. WARNING:: Updating to the latest BIOS(1J2 or higher) may cause unexpected problem of ``Intel® Joule™`` with Ubuntu 16.04 LTS. Please use only the recommended BIOS version #193.
+
 .. WARNING:: ``Intel® Joule™`` comes with ``passive heatsink`` in the package. It is recommended to use the heatsink. In order to operate Joule without the heatsink, please follow the extra instruction: https://software.intel.com/en-us/node/721471
 
 [``Intel® Joule™``] Connect ``micro HDMI to HDMI cable``, ``power connector supplied by OpenCR``, ``USB devices`` including ``Bootable USB drive``, ``mouse`` and ``keyboard``. You might need a USB hub to plug multiple USB devices into Joule.

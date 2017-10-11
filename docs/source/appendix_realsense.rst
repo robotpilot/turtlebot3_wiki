@@ -107,6 +107,7 @@ The following commands will install relevant Intel® RealSense™ packages on yo
 
 .. code-block:: bash
 
+  sudo apt-get install linux-headers-generic
   sudo apt-get install ros-kinetic-librealsense
   sudo apt-get install ros-kinetic-realsense-camera
 

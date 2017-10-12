@@ -100,7 +100,7 @@ Intel® Joule™ : http://ark.intel.com/products/96414/Intel-Joule-570x-Develope
 Sensor
 ~~~~~~
 
-Laser Distance Sensor : http://turtlebot3.robotis.com/en/latest/appendix_lds.html
+360 Laser Distance Sensor LDS-01 : http://turtlebot3.robotis.com/en/latest/appendix_lds.html
 
 Intel® Realsense™ R200 : https://software.intel.com/en-us/RealSense/R200Camera
 

@@ -11,7 +11,7 @@ TurtleBot is the most popular open source robot for education and research. The 
 
 AFFORDABLE COST
 ---------------
-TurtleBot was developed to meet the cost-conscious needs of schools, laboratories and companies. TurtleBot3 is the most affordable robot among the SLAM-able mobile robots equipped with a general 360-degree LiDAR.
+TurtleBot was developed to meet the cost-conscious needs of schools, laboratories and companies. TurtleBot3 is the most affordable robot among the SLAM-able mobile robots equipped with a 360 Laser Distance Sensor LDS-01.
 
 SMALL SIZE
 ----------

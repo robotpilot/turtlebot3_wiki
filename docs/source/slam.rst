@@ -35,7 +35,7 @@ The SLAM is a well-known feature of TurtleBot from its predecessors. The video h
 
 :Date: 2017.04.20
 :Robot: TurtleBot3 Burger and Waffle
-:Sensor: Laser Distance Sensor
+:Sensor: 360 Laser Distance Sensor LDS-01
 :Packages: Gmapping
 :Place: ROBOTIS HQ Education Room
 :Duration: About 4 minutes

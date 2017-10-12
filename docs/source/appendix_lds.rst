@@ -8,7 +8,7 @@ Appendix #LDS
 Overview
 --------
 
-LDS (HLS-LFCD2) is used for both TurtleBot3 Burger and TurtleBot3 Waffle. The LDS(LASER Distance Sensor) is a sensor which collects a set of distance data and send them to the host for the Simultaneous Localization and Mapping (SLAM) technique.
+360 Laser Distance Sensor LDS-01 is used for both TurtleBot3 Burger and TurtleBot3 Waffle. The LDS-01(LASER Distance Sensor) is a sensor which collects a set of distance data and send them to the host for the Simultaneous Localization and Mapping (SLAM) technique.
 
 .. raw:: html
 
@@ -76,7 +76,7 @@ The following link contains information about basic performance, measurement per
 
 Here is the detail specification document :download:`pdf <_static/docs/LDS_Basic_Specification.pdf>`
 
-.. NOTE:: The LDS for TurtleBot3 uses molex 51021-0800 and 53048-0810 instead of the basic housing and connector.
+.. NOTE:: The 360 Laser Distance Sensor LDS-01 for TurtleBot3 uses molex 51021-0800 and 53048-0810 instead of the basic housing and connector.
 - [for LDS] Molex 51021-0800 (http://www.molex.com/pdm_docs/sd/510210800_sd.pdf)
 - [for USB2LDS] Molex 53048-0810  (http://www.molex.com/pdm_docs/sd/530480810_sd.pdf)
 
@@ -85,14 +85,14 @@ Here is the detail specification document :download:`pdf <_static/docs/LDS_Basic
 LDS for TurtleBot3
 ------------------
 
-The LDS (HLS-LFCD2) is used for both TurtleBot3 Burger and TurtleBot3 Waffle.
+The 360 Laser Distance Sensor LDS-01 is used for both TurtleBot3 Burger and TurtleBot3 Waffle.
 
 .. image:: _static/hardware/turtlebot3_models.png
 
 Introduction Video
 ------------------
 
-ROS Hector SLAM demo using only a LDS (HLS-LFCD2) made by HLDS (Hitachi-LG Data Storage).
+ROS Hector SLAM demo using only a 360 Laser Distance Sensor LDS-01 made by HLDS (Hitachi-LG Data Storage).
 
 .. raw:: html
 
@@ -100,7 +100,7 @@ ROS Hector SLAM demo using only a LDS (HLS-LFCD2) made by HLDS (Hitachi-LG Data 
 
 |
 
-ROS Gmapping and Cartographer SLAM demo using TurtleBot3 and the LDS (HLS-LFCD2).
+ROS Gmapping and Cartographer SLAM demo using TurtleBot3 and 360 Laser Distance Sensor LDS-01.
 
 .. raw:: html
 

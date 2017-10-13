@@ -3,10 +3,10 @@
 FAQ
 ===
 
-**Q1) How to download the STL files of TurtleBot3.**
-----------------------------------------------------
+**How to download the STL files of TurtleBot3.**
+-------------------------------------------------
 
-A1) You can download it in the following way.
+You can download it in the following way.
 
 We released the TurtleBot3 Friends hardware design file at the link below.
 
@@ -26,20 +26,20 @@ So, you can download the STL files directly from each Onshape address as shown i
 .. image:: _static/faq/download_the_stl_files_02.png
 
 
-**Q2) Intel® Joule™ USB-C port is not recognized on Windows 10.**
------------------------------------------------------------------
+**Intel® Joule™ USB-C port is not recognized on Windows 10.**
+--------------------------------------------------------------
 
-A2) Some users have reported that the USB-C port is not recognized on Windows 10 when they were trying to update BIOS.
+Some users have reported that the USB-C port is not recognized on Windows 10 when they were trying to update BIOS.
 Please check below link that describes the solution that worked out(Thanks for rknlhrqy and VRAORESEARCH).
 
 1. https://discourse.ros.org/t/turtlebot-3-successfully-upload-alternative-ubuntu-desktop-16-04-to-joule/2224
 2. https://communities.intel.com/thread/109766
 
 
-**Q3) Can I charge the battery when the battery is connected to Turtlebot3?**
------------------------------------------------------------------------------
+**Can I charge the battery when the battery is connected to Turtlebot3?**
+--------------------------------------------------------------------------
 
-A3) Charging and discharging the battery at the same is **NOT** recommended and this may void the warranty of the product. If Turtlebot3 needs to be turned on while charging/replacing battery, please follow below procedure:
+Charging and discharging the battery at the same is **NOT** recommended and this may void the warranty of the product. If Turtlebot3 needs to be turned on while charging/replacing battery, please follow below procedure:
 
 1. Connect SMPS 12V 5A to OpenCR(http://www.robotis-shop-en.com/?act=shop_en.goods_view&GS=1366&GC=GD0B0102)
 2. Disconnect the depleted battery from OpenCR

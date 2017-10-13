@@ -177,7 +177,7 @@ Texts in the rectangle is the IP address of the ``TurtleBot``.
 
   source ~/.bashrc
 
-.. _Step by step Ubuntu 16.04 LTS Installation on Intel® Joule™ Instruction_: http://turtlebot3.robotis.com/en/latest/install_linux.html
+.. _Step by step Ubuntu 16.04 LTS Installation Instruction: http://turtlebot3.robotis.com/en/latest/install_linux.html
 .. _BIOS version #193: https://downloadmirror.intel.com/26206/eng/joule-firmware-2017-02-19-193-public.zip
 .. _Alternative install(Ubuntu Desktop 16.04 LTS): https://developer.ubuntu.com/core/get-started/intel-joule#alternative-install:-ubuntu-desktop-16.04-lts
 .. _1.2 Setup your sources.list: http://wiki.ros.org/kinetic/Installation/Ubuntu#Installation.2BAC8-Ubuntu.2BAC8-Sources.Setup_your_sources.list

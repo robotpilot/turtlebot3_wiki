@@ -31,7 +31,7 @@ TurtleBot3 is able to get a precise spatial data by using 2 DYNAMIXELs in the wh
 
 OPEN CONTROL BOARD FOR ROS
 --------------------------
-The control board is open-sourced in hardware wise and in software wise for ROS communication. The open source control board OpenCR is powerful enough to control not only DYNAMIXELs but also ROBOTIS sensors that are frequently being used for basic recognition tasks in cost effective way. Various sensors such as Touch sensor, Infrared sensor, Color sensor and a handful more are available. The OpenCR has an IMU sensor inside the board so that it can enhance precise control for countless applications. The board has 3.3V, 5V, 12V power supplies to reinforce the available computer device lineups.
+The control board is open-sourced in hardware wise and in software wise for ROS communication. The open source control board OpenCR1.0 is powerful enough to control not only DYNAMIXELs but also ROBOTIS sensors that are frequently being used for basic recognition tasks in cost effective way. Various sensors such as Touch sensor, Infrared sensor, Color sensor and a handful more are available. The OpenCR1.0 has an IMU sensor inside the board so that it can enhance precise control for countless applications. The board has 3.3V, 5V, 12V power supplies to reinforce the available computer device lineups.
 
 
 STRONG SENSOR LINEUPS
@@ -42,7 +42,7 @@ OPEN SOURCE
 -----------
 The hardware, firmware and software of TurtleBot3 are open source which means that users are welcomed to download, modify and share source codes. All components of TurtleBot3 are manufactured with injection molded plastic to achieve low cost, however, the 3D CAD data is also available for 3D printing.
 The 3D CAD data is released via Onshape which is a full-cloud 3D CAD editor. Users can get an access with a web browser on desktop PC, laptop and even portable devices. Onshape allows to draw 3D models and to assemble them with colleagues.
-Besides, for the users who want to make OpenCR board by themselves, all details of the OpenCR board such as schematics, PCB gerber files, BOM and firmware source code are fully opened under the open-source licenses for users and ROS community.
+Besides, for the users who want to make OpenCR1.0 board by themselves, all details of the OpenCR1.0 board such as schematics, PCB gerber files, BOM and firmware source code are fully opened under the open-source licenses for users and ROS community.
 You can modify downloaded source code and hardware to share it with your friends.
 
 .. _Open Robotics: http://www.osrfoundation.org/

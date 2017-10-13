@@ -1,22 +1,22 @@
 .. _appendix_opencr:
 
-Appendix #OpenCR
-================
+Appendix #OpenCR1.0
+===================
 
 .. image:: _static/appendix/opencr/opencr.png
 
 Overview
 --------
 
-``OpenCR`` is a main controller board of the TurtleBot3. OpenCR; Open-source Control module for ROS, is developed for ROS embedded systems to provide completely open-source hardware and software. Everything about the board; Schematics, PCB Gerber, BOM and the firmware source code for the TurtleBot3 are free to distribute under open-source licenses for users and the ROS community.
+``OpenCR1.0`` is a main controller board of the TurtleBot3. OpenCR1.0; Open-source Control module for ROS, is developed for ROS embedded systems to provide completely open-source hardware and software. Everything about the board; Schematics, PCB Gerber, BOM and the firmware source code for the TurtleBot3 are free to distribute under open-source licenses for users and the ROS community.
 
-The STM32F7 series is a main chip inside the OpenCR board which is based on a very powerful ARM Cortex-M7 with floating point unit. The development environment for OpenCR is wide open from Arduino IDE and Scratch for young students to traditional firmware development for the expert.
+The STM32F7 series is a main chip inside the OpenCR1.0 board which is based on a very powerful ARM Cortex-M7 with floating point unit. The development environment for OpenCR1.0 is wide open from Arduino IDE and Scratch for young students to traditional firmware development for the expert.
 
-OpenCR provides digital and analog input/output pins that can interface with extension board or various sensors. Also, OpenCR features various communication interfaces: USB for connecting to PC, UART, SPI, I2C, CAN for other embedded devices.
+OpenCR1.0 provides digital and analog input/output pins that can interface with extension board or various sensors. Also, OpenCR1.0 features various communication interfaces: USB for connecting to PC, UART, SPI, I2C, CAN for other embedded devices.
 
-OpenCR can provide a best solution when using with a SBC. It supports 12V, 5V, 3.3V power outputs for SBCs and sensors. It also supports hot swap power inputs between battery and SMPS.
+OpenCR1.0 can provide a best solution when using with a SBC. It supports 12V, 5V, 3.3V power outputs for SBCs and sensors. It also supports hot swap power inputs between battery and SMPS.
 
-OpenCR will be the best solution for implementing your embedded control design.
+OpenCR1.0 will be the best solution for implementing your embedded control design.
 
 
 .. raw:: html
@@ -89,7 +89,7 @@ Specification
 | Mass                     | 60g                                                                |
 +--------------------------+--------------------------------------------------------------------+
 
-* Hot swap power switch between "shore power"(12V, 5A SMPS) and "mobile power"(battery) from OpenCR board enables UPS(Uninterrupted Power Supply) feature.
+* Hot swap power switch between "shore power"(12V, 5A SMPS) and "mobile power"(battery) from OpenCR1.0 board enables UPS(Uninterrupted Power Supply) feature.
 
 * Dynamixel Connectors(JST EH Connector, TTL: B3B-EH-A, RS-485: B4B-EH-A) : http://www.jst-mfg.com/product/pdf/eng/eEH.pdf
 * CAN, UART Connector(Yeonho 20010WS-04000) : http://www.alldatasheet.com/datasheet-pdf/pdf/147797/YEONHO/20010WS-04000.html
@@ -142,16 +142,16 @@ Open Source Software
 
 You can modify the downloaded source code and share it with your friends.
 
-- OpenCR Software: https://github.com/ROBOTIS-GIT/OpenCR
+- OpenCR1.0 Software: https://github.com/ROBOTIS-GIT/OpenCR
 
 Open Source Hardware
 --------------------
 
-If you want to manufacture your own OpenCR, you can download necessary files such as PCB Gerber, BOM. When the board is ready firmware source code can be burned into the MCU.
+If you want to manufacture your own OpenCR1.0, you can download necessary files such as PCB Gerber, BOM. When the board is ready firmware source code can be burned into the MCU.
 
-- OpenCR Hardware: https://github.com/ROBOTIS-GIT/OpenCR-Hardware
+- OpenCR1.0 Hardware: https://github.com/ROBOTIS-GIT/OpenCR-Hardware
 
 Wiki Site for More Information
 ------------------------------
 
-- OpenCR Wiki: https://github.com/ROBOTIS-GIT/OpenCR/wiki
+- OpenCR1.0 Wiki: https://github.com/ROBOTIS-GIT/OpenCR/wiki

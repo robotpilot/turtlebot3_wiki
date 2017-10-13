@@ -12,7 +12,7 @@ Software
  - https://github.com/ROBOTIS-GIT/turtlebot3_applications
  - https://github.com/ROBOTIS-GIT/turtlebot3_msgs
 
-- [OpenCR Firmware]
+- [OpenCR1.0 Firmware]
  - TurtleBot3 Burger, Waffle and Friends
  - https://github.com/ROBOTIS-GIT/OpenCR
 
@@ -25,7 +25,7 @@ Software
 Hardware
 ~~~~~~~~
 
-- [Circuit and PCB Gerber of OpenCR]
+- [Circuit and PCB Gerber of OpenCR1.0]
  - https://github.com/ROBOTIS-GIT/OpenCR-Hardware
 
 - [TurtleBot3 Hardware]

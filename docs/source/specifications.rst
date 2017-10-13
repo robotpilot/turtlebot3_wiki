@@ -107,7 +107,7 @@ Intel® Realsense™ R200 : https://software.intel.com/en-us/RealSense/R200Camer
 Control board
 ~~~~~~~~~~~~~
 
-OpenCR : http://turtlebot3.robotis.com/en/latest/appendix_opencr.html
+OpenCR1.0 : http://turtlebot3.robotis.com/en/latest/appendix_opencr.html
 
 Actuator
 ~~~~~~~~

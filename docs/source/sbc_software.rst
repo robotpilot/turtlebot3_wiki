@@ -66,7 +66,7 @@ In this section, the Alternative Ubuntu Desktop 16.04 LTS will be installed on I
 
 .. WARNING:: ``Intel® Joule™`` comes with ``passive heatsink`` in the package. It is recommended to use the heatsink. In order to operate Joule without the heatsink, please follow the extra instruction: https://software.intel.com/en-us/node/721471
 
-[``Intel® Joule™``] Connect ``micro HDMI to HDMI cable``, ``power connector supplied by OpenCR``, ``USB devices`` including ``Bootable USB drive``, ``mouse`` and ``keyboard``. You might need a USB hub to plug multiple USB devices into Joule.
+[``Intel® Joule™``] Connect ``micro HDMI to HDMI cable``, ``power connector supplied by OpenCR1.0``, ``USB devices`` including ``Bootable USB drive``, ``mouse`` and ``keyboard``. You might need a USB hub to plug multiple USB devices into Joule.
 
 [``Intel® Joule™``] Installation will be proceeded as shown in below images. When Joule is turned on, monitor will blink about 3 times after 5 seconds, and print menu screen. Press ``F7`` to go to ``Boot Manager``.
 
@@ -197,7 +197,7 @@ If catkin_make command is completed without any errors, the preparation for Turt
 USB Settings (Burger and Waffle)
 --------------------------------
 
-[``TurtleBot``] The following commands allow to use USB port for OpenCR without acquiring root permission.
+[``TurtleBot``] The following commands allow to use USB port for OpenCR1.0 without acquiring root permission.
 
 .. code-block:: bash
 

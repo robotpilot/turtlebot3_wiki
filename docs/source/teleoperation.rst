@@ -14,7 +14,7 @@ Teleoperation
 
 .. TIP:: The teleoperation is supposed to be running on the remote PC. **Follow the instruction on your Remote PC**.
 
-TurtleBot3 can be teleoperated by various devices. It is tested with several wireless devices such as PS3, XBOX 360, ROBOTIS RC100 and etc. Examples shown here(except the LEAP Motion) can be launched by ROS on Ubuntu mate 16.04 with Raspberry Pi 3 and OpenCR which controls DYNAMIXEL.
+TurtleBot3 can be teleoperated by various devices. It is tested with several wireless devices such as PS3, XBOX 360, ROBOTIS RC100 and etc. Examples shown here(except the LEAP Motion) can be launched by ROS on Ubuntu mate 16.04 with Raspberry Pi 3 and OpenCR1.0 which controls DYNAMIXEL.
 
 .. raw:: html
 
@@ -53,7 +53,7 @@ Keyboard
 RC100
 -----
 
-The settings for ROBOTIS RC100 controller is included in the OpenCR firmware.
+The settings for ROBOTIS RC100 controller is included in the OpenCR1.0 firmware.
 
 PS3 Joystick
 ------------

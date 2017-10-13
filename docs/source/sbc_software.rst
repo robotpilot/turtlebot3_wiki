@@ -66,7 +66,7 @@ In this section, the Alternative Ubuntu Desktop 16.04 LTS will be installed on I
 
 .. WARNING:: ``Intel® Joule™`` comes with ``passive heatsink`` in the package. It is recommended to use the heatsink. In order to operate Joule without the heatsink, please follow the extra instruction: https://software.intel.com/en-us/node/721471
 
-`Step by step Ubuntu 16.04 LTS Installation on Intel® Joule™ Instruction`_
+`Step by step Ubuntu 16.04 LTS Installation Instruction`_
 
 
 Install ROS and Packages (Burger and Waffle)

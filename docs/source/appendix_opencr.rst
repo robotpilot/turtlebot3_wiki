@@ -50,13 +50,13 @@ Specification
 +--------------------------+--------------------------------------------------------------------+
 | Communication circuits   | USB (Micro-B USB connector/USB 2.0/Host/Peripehral/OTG)            |
 +                          +--------------------------------------------------------------------+
-|                          | TTL (JST 3pin / Dynamixel)                                         |
+|                          | TTL (`B3B-EH-A`_ / Dynamixel)                                      |
 +                          +--------------------------------------------------------------------+
-|                          | RS485 (JST 4pin / Dynamixel)                                       |
+|                          | RS485 (`B4B-EH-A`_ / Dynamixel)                                    |
 +                          +--------------------------------------------------------------------+
-|                          | UART x 2                                                           |
+|                          | UART x 2 (`20010WS-04`_)                                           |
 +                          +--------------------------------------------------------------------+
-|                          | CAN                                                                |
+|                          | CAN (`20010WS-04`_)                                                |
 +--------------------------+--------------------------------------------------------------------+
 | LEDs and buttons         | LD2 (red/green) : USB communication                                |
 +                          +--------------------------------------------------------------------+
@@ -74,9 +74,9 @@ Specification
 +                          +--------------------------------------------------------------------+
 |                          | External output source                                             |
 +                          +--------------------------------------------------------------------+
-|                          | 12V@1A, 5V@4A, 3.3V@800mA                                          |
+|                          | 12V@1A(`SMW250-02`_), 5V@4A(`5267-02A`_), 3.3V@800mA(`20010WS-02`_)|
 +                          +--------------------------------------------------------------------+
-|                          | External battery connect for RTC (Real Time Clock)                 |
+|                          | External battery Port for RTC (Real Time Clock) (`Molex 53047-0210`_)|
 +                          +--------------------------------------------------------------------+
 |                          | Power LED: LD1 (red, 3.3 V power on)                               |
 +                          +--------------------------------------------------------------------+
@@ -90,10 +90,6 @@ Specification
 +--------------------------+--------------------------------------------------------------------+
 
 * Hot swap power switch between "shore power"(12V, 5A SMPS) and "mobile power"(battery) from OpenCR1.0 board enables UPS(Uninterrupted Power Supply) feature.
-
-* Dynamixel Connectors(JST EH Connector, TTL: B3B-EH-A, RS-485: B4B-EH-A) : http://www.jst-mfg.com/product/pdf/eng/eEH.pdf
-* CAN, UART Connector(Yeonho 20010WS-04000) : http://www.alldatasheet.com/datasheet-pdf/pdf/147797/YEONHO/20010WS-04000.html
-* CAN, UART Mating Housing(Yeonho 20010HS-04000) : http://www.alldatasheet.com/datasheet-pdf/pdf/147794/YEONHO/20010HS-04000.html
 
 
 User Guide
@@ -155,3 +151,11 @@ Wiki Site for More Information
 ------------------------------
 
 - OpenCR1.0 Wiki: https://github.com/ROBOTIS-GIT/OpenCR/wiki
+
+.. _B3B-EH-A: http://www.jst-mfg.com/product/pdf/eng/eEH.pdf
+.. _B4B-EH-A: http://www.jst-mfg.com/product/pdf/eng/eEH.pdf
+.. _SMW250-02: http://www.alldatasheet.com/datasheet-pdf/pdf/148144/YEONHO/SMW250-02P.html
+.. _5267-02A: http://www.molex.com/molex/products/datasheet.jsp?part=active/0022035025_PCB_HEADERS.xml&channel=Products&Lang=en-US
+.. _20010WS-04: http://www.alldatasheet.com/datasheet-pdf/pdf/147797/YEONHO/20010WS-04000.html
+.. _20010WS-02: http://www.alldatasheet.com/datasheet-pdf/pdf/147795/YEONHO/20010WS-02000.html
+.. _Molex 53047-0210: http://www.molex.com/molex/products/datasheet.jsp?part=active/0530470210_PCB_HEADERS.xml

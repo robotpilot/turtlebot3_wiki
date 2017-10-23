@@ -25,6 +25,10 @@ TurtleBot3 is a collaboration project among Open Robotics, ROBOTIS, and more par
 News
 ----
 
+- 10/13/2017 `Top 10 Open Source Linux Robots, Linux.com <https://www.linux.com/blog/2017/10/top-10-open-source-linux-robots>`_
+- 09/22/2017 "TurtleBot3 AutoRace" on ROSCon2017, `PDF <https://roscon.ros.org/2017/presentations/ROSCon%202017%20Lightning%20211.pdf>`_, `Video <https://vimeo.com/236177042#t=1760s>`_
+- 09/21/2017 "Introducing OpenManipulator; the full open robot platform" on ROSCon2017, `PDF <https://roscon.ros.org/2017/presentations/ROSCon%202017%20OpenManipulator.pdf>`_, `Video <https://vimeo.com/236147296>`_
+- 07/16/2017 `The TurtleBot3 Teacher: Learn the ROS platform with this robot kit, IEEE Spectrum <https://spectrum.ieee.org/geek-life/hands-on/the-turtlebot3-teacher>`_
 - 06/16/2017 `Turtlebot3, the Open Source Ubuntu/ROS-Based Robot Kit, Open Electronics <https://www.open-electronics.org/turtlebot3-the-open-source-ubunturos-based-robot-kit/>`_
 - 06/14/2017 `Open Source TurtleBot 3 Robot Kit Runs Ubuntu and ROS on Raspberry Pi, Linux.com <https://www.linux.com/news/event/open-source-summit-na/2017/6/open-source-turtlebot-3-robot-kit-runs-ubuntu-and-ros-raspberry-pi>`_
 - 06/09/2017 `Ubuntu-driven TurtleBot gets a major rev with a Pi or Joule in the driver’s seat, LinuxGizmos.com <http://linuxgizmos.com/ubuntu-driven-turtlebot-gets-a-major-rev-with-a-pi-or-joule-in-the-drivers-seat/>`_

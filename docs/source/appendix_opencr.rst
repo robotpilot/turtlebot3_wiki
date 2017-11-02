@@ -48,7 +48,7 @@ Specification
 +                          +----------------------------------------------------------------------+
 |                          | Extension connector x 18 pins                                        |
 +--------------------------+----------------------------------------------------------------------+
-| Communication circuits   | USB (Micro-B USB connector/USB 2.0/Host/Peripehral/OTG)              |
+| Communication circuits   | USB (Micro-B USB connector/USB 2.0/Host/Peripheral/OTG)              |
 +                          +----------------------------------------------------------------------+
 |                          | TTL (`B3B-EH-A`_ / Dynamixel)                                        |
 +                          +----------------------------------------------------------------------+

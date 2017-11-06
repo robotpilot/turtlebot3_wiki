@@ -80,7 +80,7 @@ TurtleBot3 Friends: OpenManipulator Chain
 :``Type``: Manipulator 4 DOF + 1 Gripper
 :``Features``: Compatible with TurtleBot3 Waffle and it has linear gripper for pick and place.
 :``Components``: Four Dynamixel X 430 Series (Four for joints, one for gripper), an OpenCR1.0 Board, 3D printed chassis.
-:``BOM``: Please refer to the OpenManipulator's `Wiki<https://github.com/ROBOTIS-GIT/open_manipulator/wiki/OpenManipulator-Chain>`_
+:``BOM``: Please refer to the OpenManipulator `Wiki<https://github.com/ROBOTIS-GIT/open_manipulator/wiki/OpenManipulator-Chain>`_
 :``Hardware``: https://goo.gl/xgxh2G (TB3 Waffle + OpenManipulator Chain)
 :``Hardware``: https://goo.gl/Wv3KON (OpenManipulator Chain)
 :``Software``: https://github.com/ROBOTIS-GIT/open_manipulator (We are preparing for OpenCR Example)

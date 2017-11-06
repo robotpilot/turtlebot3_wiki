@@ -113,6 +113,8 @@ User guide
 
 We are offering `ROS package for LSD`_. The hls_lfcd_lds_driver package provides a driver for "HLS(Hitachi-LG Sensor) LFCD LDS(Laser Distance Sensor)".
 
+.. NOTE:: Due to firmware update (after buy it on Oct. 2017), the sensor is running directly when power in on.
+
 Installation
 ~~~~~~~~~~~~
 

@@ -5,6 +5,8 @@ Manipulation
 
 .. NOTE:: This instruction was tested on ``Ubuntu 16.04, Linux Mint 18.1`` and ``ROS Kinetic Kame``.
 
+.. NOTE:: If you want more specfic information about OpenManipulator, you would follow official wiki page of OpenManipulator. https://github.com/ROBOTIS-GIT/open_manipulator
+
 .. raw:: html
 
   <iframe width="640" height="360" src="https://www.youtube.com/embed/qbht0ssv8M0" frameborder="0" allowfullscreen></iframe>

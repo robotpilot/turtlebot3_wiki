@@ -35,13 +35,13 @@ AutoRace - RBIZ Challenge 2017
 .. image:: _static/autonomous_driving/autorace_rbiz_challenge_2017_robots_2.png
     :align: center
 
-Details of track map and referee system (with sources provided) -
+- Details of track map and referee system (with sources provided)
 
 track map : https://github.com/ROBOTIS-GIT/autorace_track
 
 referee system : https://github.com/ROBOTIS-GIT/autorace_referee
 
-Participants sources -
+- Participants sources
 
 Team RealRiceThief (1st) : https://github.com/KoG-8/Turtlebot_RealRiceThief
 
@@ -73,15 +73,21 @@ Team Cena (retired)
 
 Team TogetherChaChaCha (retired)
 
-Videos -
+- Videos
+
+Teaser #1
 
 .. raw:: html
 
   <iframe width="560" height="315" src="https://www.youtube.com/embed/9Wnu8If1eS4" frameborder="0" allowfullscreen></iframe>
 
+Teaser #2
+
 .. raw:: html
 
   <iframe width="560" height="315" src="https://www.youtube.com/embed/47YnSBAssOM" frameborder="0" allowfullscreen></iframe>
+
+Fianl video
 
 .. raw:: html
 
@@ -98,5 +104,12 @@ Video - Team Sherlotics (Introduction video)
 .. raw:: html
 
   <iframe width="560" height="315" src="https://www.youtube.com/embed/dzjsLFj62HE" frameborder="0" allowfullscreen></iframe>
+
+AutoRace - now on scheduling for competition 2018
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+If you want to hold the competition in your place, let us help you.
+
+Please ask contactus@robotis.com
 
 |

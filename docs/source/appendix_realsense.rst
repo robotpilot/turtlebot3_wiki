@@ -103,7 +103,7 @@ Installation
 
   There are installation prerequisites for the Intel® RealSense™ package installation in http://wiki.ros.org/librealsense
 
-The following commands will install relevant Intel® RealSense™ packages on your ROS system.
+[``TurtleBot``] The following commands will install relevant Intel® RealSense™ packages on your ROS system.
 
 .. code-block:: bash
 
@@ -114,17 +114,59 @@ The following commands will install relevant Intel® RealSense™ packages on yo
 Run realsense_camera node
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
+[``TurtleBot``] Run the following command
+
 .. code-block:: bash
 
   roslaunch realsense_camera r200_nodelet_default.launch
 
 While the realsense_camera node is running, you can view various data from Intel® RealSense™ by launching rqt_image_view.
 
+[``Remote PC``] Run the following command
+
 .. code-block:: bash
 
   rqt_image_view
 
 Once the gui application is appeared on the screen, you can select data topic name related to Intel® RealSense™ from drop down menu at the top of the application.
+
+(Optional) To try as the example video shows 
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+[``TurtleBot``] Input ``ctrl`` + ``c`` to quit the previously run camera node, then run other realsense_camera node
+
+.. code-block:: bash
+
+  roslaunch realsense_camera r200_nodelet_rgbd.launch
+  
+[``TurtleBot``] Run turtlebot3_bringup node to get datas for doing SLAM 
+
+.. code-block:: bash
+
+  roslaunch turtlebot3_bringup turtlebot3_robot.launch
+
+[``Remote PC``] Run turtlebot3_slam node to do SLAM
+
+.. code-block:: bash
+
+  roslaunch turtlebot3_slam turtlebot3_slam.launch
+
+[``Remote PC``] Run RViz
+
+.. code-block:: bash
+
+  rosrun rviz rviz -d `rospack find turtlebot3_slam`/rviz/turtlebot3_slam.rviz
+
+[``Remote PC``] Click ``Panels`` - ``Views`` to open the view window
+
+[``Remote PC``] Click ``TopDownOrtho (rviz)`` and change it into ``XYOrbit (rviz)``
+
+[``Remote PC``] Click ``add`` - ``By topic`` and find the PointCloud2 type ``/points`` topic in ``/camera/depth``, then click it
+
+[``Remote PC``] Click PointCloud2 type topic on the left window, then change ``Color Transformer`` from ``Intensity`` to ``AxisColor``. This will show the depth of each points by color description.
+
+[``Remote PC``] Click ``add`` - ``By topic`` and find the Image type ``/image_color`` topic in ``/camera/rgb``, then click it. This will show the view of the rgb camera
+
 
 References
 ----------

@@ -77,26 +77,26 @@ Videos -
 
 .. raw:: html
 
-  <iframe width="640" height="360" src="https://youtu.be/9Wnu8If1eS4" frameborder="0" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/9Wnu8If1eS4" frameborder="0" allowfullscreen></iframe>
 
 .. raw:: html
 
-  <iframe width="640" height="360" src="https://youtu.be/47YnSBAssOM" frameborder="0" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/47YnSBAssOM" frameborder="0" allowfullscreen></iframe>
 
 .. raw:: html
 
-  <iframe width="640" height="360" src="https://youtu.be/DWDBAHHQi_k" frameborder="0" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/DWDBAHHQi_k" frameborder="0" allowfullscreen></iframe>
 
 Video - Team RealRiceThief (1st Place)
 
 .. raw:: html
 
-  <iframe width="640" height="360" src="https://youtu.be/szhllE1T_cg" frameborder="0" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/szhllE1T_cg" frameborder="0" allowfullscreen></iframe>
 
 Video - Team Sherlotics (Introduction video)
 
 .. raw:: html
 
-  <iframe width="640" height="360" src="https://youtu.be/dzjsLFj62HE" frameborder="0" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/dzjsLFj62HE" frameborder="0" allowfullscreen></iframe>
 
 |

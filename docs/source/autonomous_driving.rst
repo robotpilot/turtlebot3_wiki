@@ -21,7 +21,7 @@ and soon (In January, 2018), official autonomous driving package for turtlebot3 
 Joined in AutoRace
 -------------------
 
-.. image:: _static/autonomous_driving/autorace_rbiz_challenge_2017_1.png
+.. image:: _static/autonomous_driving/autorace_rbiz_challenge_2017_robots_1.png
     :align: center
 
 AutoRace is a competition for autonomous driving robot platforms. To provide various conditions for robot application development, the game gives as less structural regulation as possible. Entire contents are opened in software (source codes for referee system) wise and hardware (stp / dwg files of game map) wise.
@@ -32,7 +32,7 @@ Get opened source of what is participated in each competitions!
 AutoRace - RBIZ Challenge 2017
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: _static/autonomous_driving/autorace_rbiz_challenge_2017_2.png
+.. image:: _static/autonomous_driving/autorace_rbiz_challenge_2017_robots_2.png
     :align: center
 
 Details of track map and referee system (with sources provided) -

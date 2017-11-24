@@ -43,35 +43,40 @@ referee system : https://github.com/ROBOTIS-GIT/autorace_referee
 
 - Participants sources
 
-Team RealRiceThief (1st) : https://github.com/KoG-8/Turtlebot_RealRiceThief
++-------+------------------------------------+----------------------------------------------------------+
+| Place | Team                               | Source link                                              |
++=======+====================================+==========================================================+
+|   1   | RealRiceThief                      | https://github.com/KoG-8/Turtlebot_RealRiceThief         |
++-------+------------------------------------+----------------------------------------------------------+
+|   2   | IronHeart                          | will be released soon                                    |
++--------------------------------------------+----------------------------------------------------------+
+|   3   | Robit                              | https://github.com/ROBIT-GIT/turtlebot3_autoRace_2017    |
++--------------------------------------------+----------------------------------------------------------+
+|   4   | Loading                            | https://github.com/Kihoon0716/self_driving_turtlebot3    |
++--------------------------------------------+----------------------------------------------------------+
+|   5   | RunHoney                           | https://github.com/hyunoklee/turtlebot3_RBIZ             |
++--------------------------------------------+----------------------------------------------------------+
+|   6   | Sherlotics                         | https://github.com/minbaekkim/turtlebot_autorace         |
++--------------------------------------------+----------------------------------------------------------+
+|   7   | FastAndFurious                     | https://github.com/kts006/deu_racer                      |
++--------------------------------------------+----------------------------------------------------------+
+|   8   | BonoBono                           | https://github.com/Gaeul/BonobonoTurtlebot               |
++--------------------------------------------+----------------------------------------------------------+
+|   9   | BeginAgain                         | https://github.com/yh-na/beginagain                      |
++--------------------------------------------+----------------------------------------------------------+
+|   10  | Hanzo                              | https://github.com/DeokYun/autorace                      |
++--------------------------------------------+----------------------------------------------------------+
+|   11  | Codis                              | will be released soon                                    |
++--------------------------------------------+----------------------------------------------------------+
+|   12  | Zero                               | https://github.com/dongwan123/zero_turtlebot_competition |
++--------------------------------------------+----------------------------------------------------------+
+|   13  | CanDynamix                         | https://github.com/candynamix/can_dynamix                |
++--------------------------------------------+----------------------------------------------------------+
+|   14  | Cena                               | retire                                                   |
++--------------------------------------------+----------------------------------------------------------+
+|   15  | TogetherChaChaCha                  | retire                                                   |
++--------------------------------------------+----------------------------------------------------------+
 
-Team IronHeart (2nd) : will be released soon
-
-Team Robit (3rd) : https://github.com/ROBIT-GIT/turtlebot3_autoRace_2017
-
-Team Loading (4th) : https://github.com/Kihoon0716/self_driving_turtlebot3
-
-Team RunHoney (5th) : https://github.com/hyunoklee/turtlebot3_RBIZ
-
-Team Sherlotics (6th) : https://github.com/minbaekkim/turtlebot_autorace
-
-Team FastAndFurious (7th) : https://github.com/kts006/deu_racer
-
-Team BonoBono (8th) : https://github.com/Gaeul/BonobonoTurtlebot
-
-Team BeginAgain (9th) : https://github.com/yh-na/beginagain
-
-Team Hanzo (10th) : https://github.com/DeokYun/autorace
-
-Team Codis (11th) : will be released soon
-
-Team Zero (12th) : https://github.com/dongwan123/zero_turtlebot_competition
-
-Team CanDynamix (13th) : https://github.com/candynamix/can_dynamix
-
-Team Cena (retired)
-
-Team TogetherChaChaCha (retired)
 
 - Videos
 

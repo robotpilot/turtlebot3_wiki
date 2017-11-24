@@ -114,12 +114,4 @@ Video - Team Sherlotics (Introduction video)
 
   <iframe width="560" height="315" src="https://www.youtube.com/embed/dzjsLFj62HE" frameborder="0" allowfullscreen></iframe>
 
-
-AutoRace - now on scheduling for competition 2018
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-If you want to hold the competition in where you are, let us help you.
-
-Please ask contactus@robotis.com
-
 |

@@ -50,9 +50,11 @@ Charging and discharging the battery at the same is **NOT** recommended and this
 **Intel® Joule™ freezes while booting/installation**
 ----------------------------------------------------
 
-If BIOS firmware is not properly installed, this might happen. Please follow the instruction below.
+If BIOS firmware is not properly installed, this might happen. Please burn the BIOS firmware 193 release version again.
 
 1. Turn off the Joule.
-2. Proceed BIOS firmware update(https://software.intel.com/en-us/flashing-the-bios-on-joule). Make sure that you see the message in the red box.
+2. Proceed BIOS firmware #193 update(https://software.intel.com/en-us/flashing-the-bios-on-joule) using file from the below link. Make sure that you see the message in the red box.
+
+Download BIOS Firmware #193 : https://downloadmirror.intel.com/26206/eng/joule-firmware-2017-02-19-193-public.zip
 
 .. image:: _static/faq/nvstorage.png

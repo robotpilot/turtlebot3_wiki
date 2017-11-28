@@ -46,3 +46,13 @@ Charging and discharging the battery at the same is **NOT** recommended and this
 3. Connect the depleted battery to battery charger or replace the depleted battery with a fully charged battery
 4. Connect the fully charged battery to OpenCR
 5. Disconnect SMPS 12V 5A from OpenCR
+
+**Intel® Joule™ freezes while booting/installation**
+----------------------------------------------------
+
+If BIOS firmware is not properly installed, this might happen. Please follow the instruction below.
+
+1. Turn off the Joule.
+2. Proceed BIOS firmware update(https://software.intel.com/en-us/flashing-the-bios-on-joule). Make sure that you see the message in the red box.
+
+.. image:: _static/faq/nvstorage.png
